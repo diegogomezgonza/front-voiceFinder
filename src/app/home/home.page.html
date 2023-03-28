@@ -1,13 +1,9 @@
 <!-- Header -->
 <ion-header [translucent]="true">
-
   <!-- Toolbar -->
-  <ion-toolbar color="translucent">
-
+  <ion-toolbar id="vfToolbar">
     <!-- Título -->
-    <ion-title style="text-align: center; font-size: 25px">
-      Voice Finder
-    </ion-title>
+    <ion-title id="vfTitulo"> Voice Finder </ion-title>
 
     <!-- INFO PODCAST -->
     <ion-button
@@ -26,13 +22,12 @@
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-  <ion-list lines="full" id="form"> </ion-list>
-
+  <ion-list lines="full" id="vfForm"> </ion-list>
 </ion-content>
 
 <!-- Footer -->
-<ion-footer collapse="fade" id="footer">
-  <ion-toolbar>
+<ion-footer collapse="fade" id="vfFooter">
+  <ion-toolbar id="vfToolbar">
     <!-- Botones -->
     <div class="row" style="display: flex; justify-content: center">
       <div class="col-md-9 col-md-offset-9 col-xs-12 text-right">
@@ -44,7 +39,7 @@
                 style="padding-right: 25px"
                 type="button"
                 (click)="goTime()"
-                color="dark"
+                color="translucent"
                 shape="round"
                 size="large"
               >
@@ -67,7 +62,7 @@
                 style="padding-left: 25px"
                 type="button"
                 (click)="goInfo()"
-                color="dark"
+                color="translucent"
                 shape="round"
                 size="large"
               >

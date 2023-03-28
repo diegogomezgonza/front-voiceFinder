@@ -1,23 +1,31 @@
-ion-content{
-  --ion-background-color: #1390aa;
+ion-content {
+  --ion-background-color: #4a6cdf;
 }
 
-#form{
-  background-color: transparent !important;
+ion-button {
+  --box-shadow: none;
 }
 
-#footer{
-  background-color: transparent !important;
-}
-
-
-
-ion-item{
+ion-item {
   font-size: 20px;
   font-weight: bold;
 }
 
-#btn1{
-  color: red;
+#vfTitulo {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
+#vfToolbar {
+  --background: #4a6cdf;
+  --ion-background-color: #4a6cdf;
+}
+
+#vfForm {
+  background-color: transparent !important;
+}
+
+#vfFooter {
+  background-color: transparent !important;
+}

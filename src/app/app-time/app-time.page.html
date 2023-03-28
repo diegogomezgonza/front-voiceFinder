@@ -1,9 +1,40 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>appTime</ion-title>
+<!-- Header -->
+<ion-header [translucent]="true">
+  <!-- Toolbar -->
+  <ion-toolbar id="vfToolbar">
+    <!-- Título -->
+    <ion-title id="vfTitulo"> Timelapse </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<!-- Comienzo del content -->
+<ion-content [fullscreen]="true">
+  <ion-list lines="full" id="vfForm"> </ion-list>
 </ion-content>
+
+<!-- Footer -->
+<ion-footer collapse="fade" id="vfFooter">
+  <ion-toolbar id="vfToolbar">
+    <!-- Botones -->
+    <div class="row" style="display: flex; justify-content: center">
+      <div class="col-md-9 col-md-offset-9 col-xs-12 text-right">
+        <div class="btn-group" role="group">
+          <ion-row>
+            <ion-col>
+              <!-- VOLVER A HOME-->
+              <ion-button
+                type="button"
+                (click)="goHome()"
+                color="dark"
+                shape="round"
+                size="large"
+              >
+                <ion-icon name="arrow-back-circle-outline"></ion-icon>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </div>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-footer>
