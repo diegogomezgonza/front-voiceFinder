@@ -9,11 +9,27 @@
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-  <ion-list lines="full" id="vfForm"> </ion-list>
+  <!-- Usuario -->
+  <ion-item id="vfItem">
+    <ion-label>Usuario: </ion-label>
+  </ion-item>
+
+  <!-- Email -->
+  <ion-item id="vfItem">
+    <ion-label>Email: </ion-label>
+  </ion-item>
 </ion-content>
 
 <!-- Footer -->
 <ion-footer collapse="fade" id="vfFooter">
+  <!-- Version voice finder + fecha actual -->
+  <div id="vfVersionDiv">
+    <ion-label id="vfVersion"
+      >Voice Finder v1.0 {{currentDate | date: 'dd/MM/yyyy'}}</ion-label
+    >
+  </div>
+
+  <!-- Toolbar -->
   <ion-toolbar id="vfToolbar">
     <!-- Botones -->
     <div class="row" style="display: flex; justify-content: center">

@@ -6,8 +6,16 @@ import { Router } from '@angular/router';
   templateUrl: './podcast-info.page.html',
   styleUrls: ['./podcast-info.page.scss'],
 })
+
+
 export class PodcastInfoPage implements OnInit {
-  constructor(private router: Router) {}
+
+  public currentDate: string;
+
+  constructor(private router: Router) {
+
+    this.currentDate = ( Date()).toString();
+  }
 
   ngOnInit() {}
 
