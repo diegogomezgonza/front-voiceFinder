@@ -8,11 +8,14 @@ import { AppTimePageRoutingModule } from './app-time-routing.module';
 
 import { AppTimePage } from './app-time.page';
 
+import { NgChartsModule } from 'ng2-charts';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    NgChartsModule,
     AppTimePageRoutingModule
   ],
   declarations: [AppTimePage]

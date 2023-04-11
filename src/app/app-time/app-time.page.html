@@ -9,8 +9,19 @@
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-  <ion-list lines="full" id="vfForm"> </ion-list>
+
+  <ion-label id="vfTimeUseLb">Tiempo de uso en España</ion-label>
+  <!-- Gráfico de uso -->
+  <canvas baseChart
+  [type]="'pie'"
+  [datasets]="pieChartDatasets"
+  [labels]="pieChartLabels"
+  [options]="pieChartOptions"
+  [plugins]="pieChartPlugins"
+  [legend]="pieChartLegend">
+</canvas>
 </ion-content>
+
 
 <!-- Footer -->
 <ion-footer collapse="fade" id="vfFooter">
