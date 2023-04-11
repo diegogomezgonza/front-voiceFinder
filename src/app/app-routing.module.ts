@@ -26,7 +26,19 @@ const routes: Routes = [
   {
     path: 'app-profile',
     loadChildren: () => import('./app-profile/app-profile.module').then( m => m.AppProfilePageModule)
+  },  {
+    path: 'app-use-time',
+    loadChildren: () => import('./app-use-time/app-use-time.module').then( m => m.AppUseTimePageModule)
   },
+  {
+    path: 'app-most-used',
+    loadChildren: () => import('./app-most-used/app-most-used.module').then( m => m.AppMostUsedPageModule)
+  },
+  {
+    path: 'app-addict',
+    loadChildren: () => import('./app-addict/app-addict.module').then( m => m.AppAddictPageModule)
+  },
+
 ];
 
 @NgModule({

@@ -30,9 +30,10 @@ export class AppTimePage implements OnInit {
   ngOnInit() {
   }
 
-  // Función ir a home
-  goHome() {
-    this.router.navigate(['home']);
+
+  //Función ir a timelapse
+  goLapse() {
+    this.router.navigate(['app-addict']);
   }
 
 }

@@ -63,7 +63,7 @@ export class HomePage implements OnInit {
 
   // Función ir a tiempo de uso
   goTime() {
-    this.router.navigate(['app-time']);
+    this.router.navigate(['app-addict']);
   }
 
   // Función ir a usuario
