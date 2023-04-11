@@ -10,8 +10,10 @@
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
 
-  <ion-label id="vfTimeUseLb">Tiempo de uso en España</ion-label>
+  <ion-label id="vfTimeUseLb">Adicción a la tecnologia por edades</ion-label>
+
   <!-- Gráfico de uso -->
+  <div id="vfGraph">
   <canvas baseChart
   [type]="'pie'"
   [datasets]="pieChartDatasets"
@@ -20,6 +22,7 @@
   [plugins]="pieChartPlugins"
   [legend]="pieChartLegend">
 </canvas>
+</div>
 </ion-content>
 
 

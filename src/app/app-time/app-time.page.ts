@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ChartOptions } from 'chart.js';
+import { ChartOptions, Legend } from 'chart.js';
 
 @Component({
   selector: 'app-app-time',
@@ -12,15 +12,18 @@ export class AppTimePage implements OnInit {
   //Info de mi gráfico
   public pieChartOptions: ChartOptions<'pie'> = {
     responsive: false,
+    color: "white"
   };
-  public pieChartLabels = [ [ 'Niños'], [ 'Adolescentes' ], 'Adultos' ];
+  public pieChartLabels = [ [ '13-17'], [ '18-24' ], ['25-34'], ['35-44'], ['45-54'], ['55-64'], ['64+'] ];
   public pieChartDatasets = [ {
-    data: [ 300, 500, 100 ]
+    data: [ 73, 71, 59, 54, 40, 39, 44 ]
   } ];
   public pieChartLegend = true;
   public pieChartPlugins = [];
 
-  constructor(private router: Router) { }
+
+
+  constructor(private router: Router) {}
 
   ngOnInit() {
   }
