@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ChartOptions, Legend } from 'chart.js';
+import { ChartOptions, Colors, Legend } from 'chart.js';
 
 @Component({
   selector: 'app-app-time',
@@ -16,10 +16,12 @@ export class AppTimePage implements OnInit {
   };
   public pieChartLabels = [ [ '13-17'], [ '18-24' ], ['25-34'], ['35-44'], ['45-54'], ['55-64'], ['64+'] ];
   public pieChartDatasets = [ {
-    data: [ 73, 71, 59, 54, 40, 39, 44 ]
+    data: [ 73, 71, 59, 54, 40, 39, 44 ],
+    backgroundColor: ["#090979", "#790913", "#a41580", "#adadad", "black", "#a1b41b", "#793409"],
   } ];
   public pieChartLegend = true;
   public pieChartPlugins = [];
+
 
 
 
