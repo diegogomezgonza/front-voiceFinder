@@ -9,40 +9,64 @@
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-  <ion-label id="vfTimeUseLb">Adicción a la tecnologia por edades</ion-label>
 
   <!-- GRÁFICO DE EDADES-->
-  <ion-button
-    type="button"
-    (click)="goAge()"
-    color="dark"
-    shape="round"
-    size="large"
-  >
-    <ion-icon name="arrow-back-circle-outline"></ion-icon>
-  </ion-button>
+  <ion-card color="primary">
+    <ion-card-header>
+      <ion-card-title>Adicción a la tecnología</ion-card-title>
+      <ion-card-subtitle>Gráfico por edades</ion-card-subtitle>
+      <ion-card-content>
+        <ion-button
+        type="button"
+        (click)="goAge()"
+        color="dark"
+        shape="round"
+        size="large"
+        expand="block"
+      >
+        <ion-icon name="globe-outline"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+    </ion-card-header>
+  </ion-card>
+
 
   <!-- GRÁFICO DE USO-->
-  <ion-button
-    type="button"
-    (click)="goAge()"
-    color="dark"
-    shape="round"
-    size="large"
-  >
-    <ion-icon name="arrow-back-circle-outline"></ion-icon>
-  </ion-button>
+  <ion-card color="success">
+    <ion-card-header>
+      <ion-card-title>Tiempo de uso</ion-card-title>
+      <ion-card-subtitle>Uso diario del móvil</ion-card-subtitle>
+      <ion-card-content><ion-button
+        type="button"
+        (click)="goAge()"
+        color="dark"
+        shape="round"
+        size="large"
+        expand="block"
+      >
+        <ion-icon name="call-outline"></ion-icon>
+      </ion-button></ion-card-content>
+    </ion-card-header>
+  </ion-card>
 
   <!-- GRÁFICO DE APLICACIONES-->
-  <ion-button
-    type="button"
-    (click)="goAge()"
-    color="dark"
-    shape="round"
-    size="large"
-  >
-    <ion-icon name="arrow-back-circle-outline"></ion-icon>
-  </ion-button>
+  <ion-card color="warning">
+    <ion-card-header>
+      <ion-card-title>Aplicaciones más usadas</ion-card-title>
+      <ion-card-subtitle>Las aplicaciones más adictivas</ion-card-subtitle>
+      <ion-card-content><ion-button
+        type="button"
+        (click)="goAge()"
+        color="dark"
+        shape="round"
+        size="large"
+        expand="block"
+      >
+        <ion-icon name="apps-outline"></ion-icon>
+      </ion-button></ion-card-content>
+    </ion-card-header>
+  </ion-card>
+</ion-content>
 
   <!-- Footer -->
   <ion-footer collapse="fade" id="vfFooter">
@@ -70,4 +94,4 @@
       </div>
     </ion-toolbar>
   </ion-footer>
-</ion-content>
+
