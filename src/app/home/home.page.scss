@@ -1,5 +1,6 @@
 ion-content {
   --ion-background-color: #4a6cdf;
+  --overflow: hidden;
 }
 
 ion-button {
@@ -15,6 +16,16 @@ ion-item {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
+}
+
+#vfHomeLb{
+  padding-top: 10px;
+  padding-left: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  font-size: 18px;
+  font-weight: inherit;
 }
 
 #vfToolbar {
