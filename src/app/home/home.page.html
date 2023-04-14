@@ -21,77 +21,75 @@
 </ion-header>
 
 <!-- Comienzo del content -->
-<ion-content [fullscreen]="true">
+<ion-content delegate-handle="mainScroll" [fullscreen]="true">
 
   <!-- Bienvenida -->
-  <!-- Notas y mis podcast -->
-  <ion-card>
-    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+  <ion-card id="vfHomeSpace">
+    <img alt="Silhouette of mountains" src="../../assets/pics/home/diary.jpg" />
     <ion-card-header>
-      <ion-card-title>Mi espacio</ion-card-title>
+      <ion-card-title id="vfCardTitle">MI ESPACIO</ion-card-title>
     </ion-card-header>
   </ion-card>
 
   <!-- Categorías  -->
-  <ion-label id="vfHomeLb">Mundo podcast</ion-label>
+  <ion-label id="vfHomeLb">MUNDO PODCAST</ion-label>
 
   <ion-slides>
     <ion-slide>
-      <ion-card>
+      <ion-card color="primary">
         <ion-card-header>
-          <ion-card-title>Entrevistas</ion-card-title>
-          <ion-card-subtitle>The Wild Project, El sentido de la birra, Club 113 </ion-card-subtitle>
+          <ion-card-title id="vfHeadCard">ENTREVISTAS</ion-card-title>
+          <ion-card-subtitle id="vfSubCard">The Wild Project, El sentido de la birra, Club 113 </ion-card-subtitle>
         </ion-card-header>
       </ion-card>
     </ion-slide>
     <ion-slide>
-      <ion-card>
+      <ion-card color="secondary">
         <ion-card-header>
-          <ion-card-title>Cultura POP</ion-card-title>
-          <ion-card-subtitle>Raideos y Mazmorras, Charlando tranquilamente, Yo Interneto</ion-card-subtitle>
+          <ion-card-title id="vfHeadCard">CULTURA POP</ion-card-title>
+          <ion-card-subtitle id="vfSubCard">Raideos y Mazmorras, Charlando tranquilamente, Yo Interneto</ion-card-subtitle>
         </ion-card-header>
       </ion-card>
     </ion-slide>
     <ion-slide>
-      <ion-card>
+      <ion-card color="success">
         <ion-card-header>
-          <ion-card-title>Random</ion-card-title>
-          <ion-card-subtitle>Radio Pirata, Nadie sabe nada, Familia de libro</ion-card-subtitle>
+          <ion-card-title id="vfHeadCard">RANDOM</ion-card-title>
+          <ion-card-subtitle id="vfSubCard">Radio Pirata, Nadie sabe nada, Familia de libro</ion-card-subtitle>
         </ion-card-header>
       </ion-card>
     </ion-slide>
   </ion-slides>
 
   <!-- Recomendados  -->
-  <ion-label id="vfHomeLb">Podcasts/Canales recomendados</ion-label>
+  <ion-label id="vfHomeLb">CREADORES RECOMENDADOS</ion-label>
 
-  <ion-slides>
+  <ion-slides id="vfHomeSlide2">
     <ion-slide>
-          <img id="vfPodcastPic" alt="Adria Sola Pastor" src="../../assets/pics/1.jpg" />
-          <ion-label id="vfPodcastLb">Adria Sola Pastor</ion-label>
-    </ion-slide>
-    <ion-slide>
-          <img id="vfPodcastPic" alt="The Wild Project" src="../../assets/pics/2.jpg" />
+          <img id="vfPodcastPic" alt="Adria Sola Pastor" src="../../assets/pics/home/1.jpg" />
           <ion-label id="vfPodcastLb">The Wild Project</ion-label>
     </ion-slide>
     <ion-slide>
-          <img  id="vfPodcastPic"alt="Jordi Wu" src="../../assets/pics/3.jpg" />
-          <ion-label id="vfPodcastLb">Jordi Wu</ion-label>
+          <img id="vfPodcastPic" alt="The Wild Project" src="../../assets/pics/home/2.jpg" />
+          <ion-label id="vfPodcastLb">Adria Sola Pastor</ion-label>
     </ion-slide>
     <ion-slide>
-          <img id="vfPodcastPic" alt="Charlando tranquilamente" src="../../assets/pics/4.jpg" />
+          <img  id="vfPodcastPic"alt="Jordi Wu" src="../../assets/pics/home/3.jpg" />
           <ion-label id="vfPodcastLb">Charlando tranquilamente</ion-label>
     </ion-slide>
     <ion-slide>
-          <img id="vfPodcastPic" alt="Yo Interneto" src="../../assets/pics/5.jpg" />
+          <img id="vfPodcastPic" alt="Charlando tranquilamente" src="../../assets/pics/home/4.jpg" />
           <ion-label id="vfPodcastLb">Yo Interneto</ion-label>
     </ion-slide>
+    <ion-slide>
+          <img id="vfPodcastPic" alt="Yo Interneto" src="../../assets/pics/home/5.jpg" />
+          <ion-label id="vfPodcastLb">Jordi Wu</ion-label>
+    </ion-slide>
   </ion-slides>
-
 </ion-content>
 
 <!-- Footer -->
-<ion-footer collapse="fade" id="vfFooter">
+<ion-footer id="vfFooter" collapse="fade">
   <ion-toolbar id="vfToolbar">
     <!-- Botones -->
     <div class="row" style="display: flex; justify-content: center">
