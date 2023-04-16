@@ -13,8 +13,8 @@
   <!-- GRÁFICO DE EDADES-->
   <ion-card color="primary">
     <ion-card-header>
-      <ion-card-title>Adicción a la tecnología</ion-card-title>
-      <ion-card-subtitle>Gráfico por edades</ion-card-subtitle>
+      <ion-card-title id="vfHeadCard">Adicción a la tecnología</ion-card-title>
+      <ion-card-subtitle id="vfSubCard">Gráfico por edades</ion-card-subtitle>
       <ion-card-content>
         <ion-button
         type="button"
@@ -34,11 +34,11 @@
   <!-- GRÁFICO DE USO-->
   <ion-card color="success">
     <ion-card-header>
-      <ion-card-title>Tiempo de uso</ion-card-title>
-      <ion-card-subtitle>Uso diario del móvil</ion-card-subtitle>
+      <ion-card-title id="vfHeadCard">Tiempo de uso</ion-card-title>
+      <ion-card-subtitle id="vfSubCard">Uso diario del móvil</ion-card-subtitle>
       <ion-card-content><ion-button
         type="button"
-        (click)="goAge()"
+        (click)="goUseTime()"
         color="dark"
         shape="round"
         size="large"
@@ -50,13 +50,13 @@
   </ion-card>
 
   <!-- GRÁFICO DE APLICACIONES-->
-  <ion-card color="warning">
+  <ion-card color="secondary">
     <ion-card-header>
-      <ion-card-title>Aplicaciones más usadas</ion-card-title>
-      <ion-card-subtitle>Las aplicaciones más adictivas</ion-card-subtitle>
+      <ion-card-title id="vfHeadCard">Aplicaciones más usadas</ion-card-title>
+      <ion-card-subtitle id="vfSubCard">Las aplicaciones más adictivas</ion-card-subtitle>
       <ion-card-content><ion-button
         type="button"
-        (click)="goAge()"
+        (click)="goMostUsed()"
         color="dark"
         shape="round"
         size="large"

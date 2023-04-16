@@ -12,8 +12,10 @@ ion-item {
 }
 
 #vfTitulo {
+  justify-content: center;
+  display: flex;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 

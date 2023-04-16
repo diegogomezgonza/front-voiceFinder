@@ -8,11 +8,14 @@ import { AppUseTimePageRoutingModule } from './app-use-time-routing.module';
 
 import { AppUseTimePage } from './app-use-time.page';
 
+import { NgChartsModule } from 'ng2-charts';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    NgChartsModule,
     AppUseTimePageRoutingModule
   ],
   declarations: [AppUseTimePage]
