@@ -5,6 +5,7 @@ import { HomeCategorySlideComponent } from './home/home-category-slide/home-cate
 import { HomeMySpaceComponent } from './home/home-my-space/home-my-space.component';
 import { HomeProfilesSlideComponent } from './home/home-profiles-slide/home-profiles-slide.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
+import { HomeUserProfileComponent } from './home/home-user-profile/home-user-profile.component';
 import { TimeGraphicComponent } from './time/time-graphic/time-graphic.component';
 import { TimeFooterComponent } from './time/time-footer/time-footer.component';
 import { AddictCardsComponent } from './addict/addict-cards/addict-cards.component';
@@ -21,6 +22,7 @@ import { NgChartsModule } from 'ng2-charts';
     HomeMySpaceComponent,
     HomeProfilesSlideComponent,
     HomeFooterComponent,
+    HomeUserProfileComponent,
     TimeGraphicComponent,
     TimeFooterComponent,
     AddictCardsComponent,
@@ -36,6 +38,8 @@ import { NgChartsModule } from 'ng2-charts';
     HomeCategorySlideComponent,
     HomeMySpaceComponent,
     HomeProfilesSlideComponent,
+    HomeFooterComponent,
+    HomeUserProfileComponent,
     TimeGraphicComponent,
     TimeFooterComponent,
     AddictCardsComponent,

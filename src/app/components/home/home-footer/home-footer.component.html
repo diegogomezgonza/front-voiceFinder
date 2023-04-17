@@ -1,3 +1,47 @@
-<p>
-  home-footer works!
-</p>
+<ion-toolbar id="vfToolbar">
+  <!-- Botones -->
+  <div class="row" style="display: flex; justify-content: center">
+    <div class="col-md-9 col-md-offset-9 col-xs-12 text-right">
+      <div class="btn-group" role="group">
+        <ion-row>
+          <ion-col>
+            <!-- TIEMPO DE USO -->
+            <ion-button
+              style="padding-right: 25px"
+              type="button"
+              (click)="goTime()"
+              color="translucent"
+              shape="round"
+              size="large"
+            >
+              <ion-icon name="hourglass-outline"></ion-icon>
+            </ion-button>
+
+            <!-- CREAR PODCAST -->
+            <ion-button
+              type="button"
+              (click)="goAction()"
+              color="dark"
+              shape="round"
+              size="large"
+            >
+              <ion-icon name="add-outline"></ion-icon>
+            </ion-button>
+
+            <!-- INFO PODCAST -->
+            <ion-button
+              style="padding-left: 25px"
+              type="button"
+              (click)="goInfo()"
+              color="translucent"
+              shape="round"
+              size="large"
+            >
+              <ion-icon name="information-circle-outline"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </div>
+    </div>
+  </div>
+</ion-toolbar>

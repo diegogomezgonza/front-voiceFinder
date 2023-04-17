@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import { Router } from '@angular/router';
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 
 @Component({
@@ -18,8 +17,7 @@ export class HomePage implements OnInit {
 
   constructor(
     // Constructor
-    private httpClient: HttpClient,
-    private router: Router) {}
+    private httpClient: HttpClient,) {}
 
   ngOnInit() {}
 
@@ -51,23 +49,4 @@ export class HomePage implements OnInit {
         console.log(res));
   }
 
-  // Función ir a crear/ver podcast
-  goAction() {
-    this.router.navigate(['podcast-action']);
-  }
-
-  // Función ir a información podcast
-  goInfo() {
-    this.router.navigate(['podcast-info']);
-  }
-
-  // Función ir a tiempo de uso
-  goTime() {
-    this.router.navigate(['app-addict']);
-  }
-
-  // Función ir a usuario
-  goUser() {
-    this.router.navigate(['app-profile']);
-  }
 }

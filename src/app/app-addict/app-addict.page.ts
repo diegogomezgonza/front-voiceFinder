@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-app-addict',
@@ -8,28 +7,8 @@ import { Router } from '@angular/router';
 })
 export class AppAddictPage implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit() {
-  }
-
-  // Función ir a gráfico de edades
-  goAge() {
-    this.router.navigate(['app-time']);
-  }
-
-  // Función ir a gráfico de tiempo de uso
-  goUseTime() {
-    this.router.navigate(['app-use-time']);
-  }
-
-  // Función ir a gráfico mas usadas
-  goMostUsed() {
-    this.router.navigate(['app-most-used']);
-  }
-
-  // Función ir a home
-  goHome() {
-    this.router.navigate(['home']);
   }
 }

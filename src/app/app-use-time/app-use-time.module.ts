@@ -10,12 +10,15 @@ import { AppUseTimePage } from './app-use-time.page';
 
 import { NgChartsModule } from 'ng2-charts';
 
+import {ComponentsModule} from "../components/components.module";
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
     NgChartsModule,
+    ComponentsModule,
     AppUseTimePageRoutingModule
   ],
   declarations: [AppUseTimePage]

@@ -1,0 +1,37 @@
+ion-content {
+    --ion-background-color: #4a6cdf;
+    --overflow: hidden;
+  }
+  
+  ion-button {
+    --box-shadow: none;
+  }
+  
+  #vfTitulo {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+    
+  #vfHomeLb{
+    padding-top: 10px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  #vfToolbar {
+    --background: #4a6cdf;
+    --ion-background-color: #4a6cdf;
+  }
+  
+  #vfFooter {
+    background-color: transparent !important;
+  }
+  

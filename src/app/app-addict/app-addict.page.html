@@ -9,89 +9,10 @@
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-
-  <!-- GRÁFICO DE EDADES-->
-  <ion-card color="primary">
-    <ion-card-header>
-      <ion-card-title id="vfHeadCard">Adicción a la tecnología</ion-card-title>
-      <ion-card-subtitle id="vfSubCard">Gráfico por edades</ion-card-subtitle>
-      <ion-card-content>
-        <ion-button
-        type="button"
-        (click)="goAge()"
-        color="dark"
-        shape="round"
-        size="large"
-        expand="block"
-      >
-        <ion-icon name="globe-outline"></ion-icon>
-      </ion-button>
-    </ion-card-content>
-    </ion-card-header>
-  </ion-card>
-
-
-  <!-- GRÁFICO DE USO-->
-  <ion-card color="success">
-    <ion-card-header>
-      <ion-card-title id="vfHeadCard">Tiempo de uso</ion-card-title>
-      <ion-card-subtitle id="vfSubCard">Uso diario del móvil</ion-card-subtitle>
-      <ion-card-content><ion-button
-        type="button"
-        (click)="goUseTime()"
-        color="dark"
-        shape="round"
-        size="large"
-        expand="block"
-      >
-        <ion-icon name="call-outline"></ion-icon>
-      </ion-button></ion-card-content>
-    </ion-card-header>
-  </ion-card>
-
-  <!-- GRÁFICO DE APLICACIONES-->
-  <ion-card color="secondary">
-    <ion-card-header>
-      <ion-card-title id="vfHeadCard">Aplicaciones más usadas</ion-card-title>
-      <ion-card-subtitle id="vfSubCard">Las aplicaciones más adictivas</ion-card-subtitle>
-      <ion-card-content><ion-button
-        type="button"
-        (click)="goMostUsed()"
-        color="dark"
-        shape="round"
-        size="large"
-        expand="block"
-      >
-        <ion-icon name="apps-outline"></ion-icon>
-      </ion-button></ion-card-content>
-    </ion-card-header>
-  </ion-card>
+  <app-addict-cards></app-addict-cards>
 </ion-content>
 
-  <!-- Footer -->
-  <ion-footer collapse="fade" id="vfFooter">
-    <ion-toolbar id="vfToolbar">
-      <!-- Botones -->
-      <div class="row" style="display: flex; justify-content: center">
-        <div class="col-md-9 col-md-offset-9 col-xs-12 text-right">
-          <div class="btn-group" role="group">
-            <ion-row>
-              <ion-col>
-                <!-- VOLVER A HOME-->
-                <ion-button
-                  type="button"
-                  (click)="goHome()"
-                  color="dark"
-                  shape="round"
-                  size="large"
-                >
-                  <ion-icon name="arrow-back-circle-outline"></ion-icon>
-                </ion-button>
-              </ion-col>
-            </ion-row>
-          </div>
-        </div>
-      </div>
-    </ion-toolbar>
-  </ion-footer>
-
+<!-- Footer -->
+<ion-footer collapse="fade" id="vfFooter">
+  <app-addict-footer></app-addict-footer>
+</ion-footer>
