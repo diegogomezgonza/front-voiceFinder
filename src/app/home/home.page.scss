@@ -7,11 +7,6 @@ ion-button {
   --box-shadow: none;
 }
 
-ion-item {
-  font-size: 20px;
-  font-weight: bold;
-}
-
 #vfTitulo {
   justify-content: center;
   display: flex;
@@ -19,38 +14,7 @@ ion-item {
   font-size: 20px;
   font-weight: bold;
 }
-
-#vfCardTitle{
-  text-align: center;
-}
-
-#vfPodcastPic{
-  height: 60px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-#vfSubCard{
-  color: black;
-  font-weight: bold;
-}
-
-#vfHeadCard{
-  color: white;
-  font-weight: bold;
-}
-
-#vfHomeSpace{
-  height: 130px;
-}
-
-#vfPodcastLb{
-  padding-left: 10px;
-}
-
+  
 #vfHomeLb{
   padding-top: 10px;
   padding-bottom: 18px;
@@ -62,17 +26,9 @@ ion-item {
   font-weight: bold;
 }
 
-#vfHomeSlide2{
-padding-top: 10px;
-}
-
 #vfToolbar {
   --background: #4a6cdf;
   --ion-background-color: #4a6cdf;
-}
-
-#vfForm {
-  background-color: transparent !important;
 }
 
 #vfFooter {

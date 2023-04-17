@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {IonicModule} from "@ionic/angular";
-import {FormCComponent} from "./form-c/form-c.component";
-import {TablaCComponent} from "./tabla-c/tabla-c.component";
+import { HomeCategorySlideComponent } from './home-category-slide/home-category-slide.component';
+import { HomeMySpaceComponent } from './home-my-space/home-my-space.component';
+import { HomeProfilesSlideComponent } from './home-profiles-slide/home-profiles-slide.component';
 
 @NgModule({
-  declarations: [FormCComponent, TablaCComponent],
+  declarations: [HomeCategorySlideComponent, HomeMySpaceComponent, HomeProfilesSlideComponent],
   imports: [
     CommonModule,
     IonicModule
-  ], exports: [FormCComponent, TablaCComponent],
+  ], exports: [HomeCategorySlideComponent, HomeMySpaceComponent, HomeProfilesSlideComponent],
 })
 export class ComponentsModule { }
