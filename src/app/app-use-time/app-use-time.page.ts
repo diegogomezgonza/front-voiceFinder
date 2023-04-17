@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { DataService } from '../services/data.service';
 @Component({
   selector: 'app-app-use-time',
   templateUrl: './app-use-time.page.html',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppUseTimePage implements OnInit {
 
-  constructor() { }
+  constructor(private dataService: DataService) {
+    this.dataService.getNotes().subscribe(res => {
+      console.log(res);
+    })
+   }
 
   ngOnInit() {
   }

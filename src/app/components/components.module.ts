@@ -13,6 +13,7 @@ import { AddictFooterComponent } from './addict/addict-footer/addict-footer.comp
 import { ProfileFooterComponent } from './profile/profile-footer/profile-footer.component';
 import { MostUsedFooterComponent } from './mostUsed/most-used-footer/most-used-footer.component';
 import { UseTimeFooterComponent } from './useTime/use-time-footer/use-time-footer.component';
+import { UseTimeVideosComponent } from './useTime/use-time-videos/use-time-videos.component';
 import { InfoFooterComponent } from './info/info-footer/info-footer.component';
 import { NgChartsModule } from 'ng2-charts';
 
@@ -30,6 +31,7 @@ import { NgChartsModule } from 'ng2-charts';
     ProfileFooterComponent,
     MostUsedFooterComponent,
     UseTimeFooterComponent,
+    UseTimeVideosComponent,
     InfoFooterComponent
 
   ],
@@ -47,6 +49,7 @@ import { NgChartsModule } from 'ng2-charts';
     ProfileFooterComponent,
     MostUsedFooterComponent,
     UseTimeFooterComponent,
+    UseTimeVideosComponent,
     InfoFooterComponent
   ],
 })
