@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-app-most-used',
@@ -8,14 +7,10 @@ import { Router } from '@angular/router';
 })
 export class AppMostUsedPage implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
-  //Función ir a timelapse
-  goLapse() {
-    this.router.navigate(['app-addict']);
-  }
 
 }

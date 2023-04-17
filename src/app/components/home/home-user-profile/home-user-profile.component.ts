@@ -10,6 +10,7 @@ export class HomeUserProfileComponent implements OnInit {
 
   constructor(private router: Router) { }
 
+  
   ngOnInit() {}
 
   // Función ir a usuario

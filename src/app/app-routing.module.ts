@@ -13,11 +13,11 @@ const routes: Routes = [
   },
   {
     path: 'podcast-info',
-    loadChildren: () => import('./podcast-info/podcast-info.module').then( m => m.PodcastInfoPageModule)
+    loadChildren: () => import('./app-info/podcast-info.module').then( m => m.PodcastInfoPageModule)
   },
   {
     path: 'podcast-action',
-    loadChildren: () => import('./podcast-action/podcast-action.module').then( m => m.PodcastActionPageModule)
+    loadChildren: () => import('./app-action/podcast-action.module').then( m => m.PodcastActionPageModule)
   },
   {
     path: 'app-time',
@@ -26,7 +26,8 @@ const routes: Routes = [
   {
     path: 'app-profile',
     loadChildren: () => import('./app-profile/app-profile.module').then( m => m.AppProfilePageModule)
-  },  {
+  },
+  {
     path: 'app-use-time',
     loadChildren: () => import('./app-use-time/app-use-time.module').then( m => m.AppUseTimePageModule)
   },

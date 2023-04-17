@@ -3,16 +3,26 @@
   <!-- Toolbar -->
   <ion-toolbar id="vfToolbar">
     <!-- Título -->
-    <ion-title id="vfTitulo"> Tiempo de uso </ion-title>
+    <ion-title id="vfTitulo"> Info </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-  <ion-label id="vfTimeUseLb">Uso del móvil 2018-2023</ion-label>
+  <div>
+    <!-- Usuario -->
+    <ion-item id="vfItem">
+      <ion-label>Usuario: </ion-label>
+    </ion-item>
+
+    <!-- Email -->
+    <ion-item id="vfItem">
+      <ion-label>Email: </ion-label>
+    </ion-item>
+  </div>
 </ion-content>
 
 <!-- Footer -->
 <ion-footer collapse="fade" id="vfFooter">
-  <app-use-time-footer></app-use-time-footer>
+  <app-info-footer></app-info-footer>
 </ion-footer>

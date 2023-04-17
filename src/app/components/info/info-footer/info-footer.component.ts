@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-info-footer',
@@ -7,8 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoFooterComponent implements OnInit {
 
-  constructor() { }
+  public currentDate: string;
+
+  constructor(private router: Router) { 
+
+    this.currentDate = ( Date()).toString();
+  }
 
   ngOnInit() {}
 
+  // Función ir a home
+  goHome() {
+    this.router.navigate(['home']);
+  }
+  
 }

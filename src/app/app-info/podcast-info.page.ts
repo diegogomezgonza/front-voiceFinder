@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-podcast-info',
@@ -10,17 +10,8 @@ import { Router } from '@angular/router';
 
 export class PodcastInfoPage implements OnInit {
 
-  public currentDate: string;
-
-  constructor(private router: Router) {
-
-    this.currentDate = ( Date()).toString();
-  }
+  constructor() {}
 
   ngOnInit() {}
 
-  // Función ir a home
-  goHome() {
-    this.router.navigate(['home']);
-  }
 }

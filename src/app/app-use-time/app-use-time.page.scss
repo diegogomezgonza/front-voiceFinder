@@ -2,26 +2,12 @@ ion-content {
   --ion-background-color: #4a6cdf;
 }
 
-#btnHome {
-  --box-shadow: none;
-}
-
-ion-item {
-  font-size: 20px;
-  font-weight: bold;
-}
-
 #vfTitulo {
   justify-content: center;
   display: flex;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-}
-
-#vfGraph{
-  margin: auto;
-  padding: 10px;
 }
 
 #vfTimeUseLb{
@@ -36,10 +22,6 @@ ion-item {
 #vfToolbar {
   --background: #4a6cdf;
   --ion-background-color: #4a6cdf;
-}
-
-#vfForm {
-  background-color: transparent !important;
 }
 
 #vfFooter {
