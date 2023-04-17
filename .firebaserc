@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bd-voicefinder": {
+      "hosting": {
+        "app": [
+          "bd-voicefinder"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bd-voicefinder"
+  }
+}
