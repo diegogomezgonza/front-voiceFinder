@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { FormCComponent } from './form-c.component';
+import { TimeGraphicComponent } from './time-graphic.component';
 
-describe('FormCComponent', () => {
-  let component: FormCComponent;
-  let fixture: ComponentFixture<FormCComponent>;
+describe('TimeGraphicComponent', () => {
+  let component: TimeGraphicComponent;
+  let fixture: ComponentFixture<TimeGraphicComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FormCComponent ],
+      declarations: [ TimeGraphicComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(FormCComponent);
+    fixture = TestBed.createComponent(TimeGraphicComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

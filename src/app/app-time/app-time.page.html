@@ -9,22 +9,13 @@
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-
   <ion-label id="vfTimeUseLb">Adicción a la tecnologia por edades</ion-label>
 
   <!-- Gráfico de uso -->
   <div id="vfGraph">
-  <canvas baseChart
-  [type]="'pie'"
-  [datasets]="pieChartDatasets"
-  [labels]="pieChartLabels"
-  [options]="pieChartOptions"
-  [plugins]="pieChartPlugins"
-  [legend]="pieChartLegend">
-</canvas>
-</div>
+    <app-time-graphic></app-time-graphic>
+  </div>
 </ion-content>
-
 
 <!-- Footer -->
 <ion-footer collapse="fade" id="vfFooter">
