@@ -16,6 +16,12 @@
   -o-border-radius: 50%;
 }
 
+#vfModal{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 ion-modal {
   --height: auto;
 }
