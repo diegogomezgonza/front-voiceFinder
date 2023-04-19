@@ -8,3 +8,4 @@
 - La BD será en Firebase
 - https://ionicthemes.com/tutorials/add-a-firebase-database-to-your-ionic-app
 - https://stackoverflow.com/questions/71127971/firebase-auth-asking-for-authorization-code-during-installation
+- En los modales añader textos con información extra relacionada con la página en la que esté + recomendar videos de los creadores.
