@@ -1,14 +1,20 @@
-<div id="vfModal"><ion-button id="open-modal" shape="round" size="large">SABER MÁS</ion-button></div>
+<div id="vfModal">
+  <ion-button id="open-modal" shape="round" size="large">SABER MÁS</ion-button>
+</div>
 
 <ion-modal trigger="open-modal" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
   <ng-template>
     <div class="block">
-      <img
-        id="vfPodcastPic"
-        alt="Adria Sola Pastor"
-        src="../../assets/pics/home/2.jpg"
-      />
-      <h1>Adria Sola Pastor</h1>
+      <img id="vfPodcastPic" alt="Adria" src="../../assets/pics/home/2.jpg" />
+      <a href="https://youtu.be/sRp7vkPb2TA" target="_blank" id="vfLink"
+        >Redes sociales
+      </a>
+    </div>
+    <div class="block">
+      <img id="vfPodcastPic" alt="Jordi" src="../../assets/pics/home/5.jpg" />
+      <a href="https://youtu.be/nlI40ddsO5w" target="_blank" id="vfLink"
+        >Disciplinar la mente
+      </a>
     </div>
   </ng-template>
 </ion-modal>

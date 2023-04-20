@@ -1,14 +1,26 @@
-<div id="vfModal"><ion-button id="open-modal" shape="round" size="large">SABER MÁS</ion-button></div>
+<div id="vfModal">
+  <ion-button id="open-modal" shape="round" size="large">SABER MÁS</ion-button>
+</div>
 
 <ion-modal trigger="open-modal" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
   <ng-template>
     <div class="block">
-      <img
-        id="vfPodcastPic"
-        alt="Clara Carmona"
-        src="../../assets/pics/home/1.jpg"
-      />
-      <h1>Clara Carmona</h1>
+      <img id="vfPodcastPic" alt="Adria" src="../../assets/pics/home/2.jpg" />
+      <a
+        href="https://www.youtube.com/watch?v=yczdWM_76wg&pp=ygUXYWRyaWEgc29sYSBwYXN0b3IgbW92aWw%3D"
+        target="_blank"
+        id="vfLink"
+        >¿Cómo curar la adicción al teléfono?
+      </a>
+    </div>
+    <div class="block">
+      <img id="vfPodcastPic" alt="Clara" src="../../assets/pics/home/1.jpg" />
+      <a
+        href="https://www.youtube.com/watch?v=bD7t5wi3K10&pp=ygUbY2xhcmEgY2FybW9uYSBtYWxvcyBoYWJpdG9z"
+        target="_blank"
+        id="vfLink"
+        >Eliminar malos hábitos
+      </a>
     </div>
   </ng-template>
 </ion-modal>
