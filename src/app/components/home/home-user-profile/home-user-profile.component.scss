@@ -1,18 +1,20 @@
-  ion-button {
-    --box-shadow: none;
-  }
-  
-  #vfTitulo {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-  }
-    
-  #vfToolbar {
-    --background: #4a6cdf;
-    --ion-background-color: #4a6cdf;
-  }
-  
-  
+ion-button {
+  --box-shadow: none;
+}
+
+#vfTitulo {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#vfToolbar {
+  --background: #4a6cdf;
+  --ion-background-color: #4a6cdf;
+}
+
+#vfToolbarTop {
+  --background: #7e9af5;
+}
