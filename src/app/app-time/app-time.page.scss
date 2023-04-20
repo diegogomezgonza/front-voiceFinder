@@ -11,6 +11,8 @@ ion-content {
 }
 
 #vfGraph {
+  display: flex;
+  justify-content: center;
   margin: auto;
   padding: 10px;
 }

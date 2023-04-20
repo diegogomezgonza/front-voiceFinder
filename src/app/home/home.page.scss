@@ -15,12 +15,24 @@ ion-button {
   font-weight: bold;
 }
 
-#vfHomeLb {
+#vfHomePodcast {
   color: white;
   text-shadow: 1px 1px 8px black;
   background: #7e9af5;
   padding-top: 10px;
-  padding-bottom: 18px;
+  padding-left: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#vfHomeCreators {
+  color: white;
+  text-shadow: 1px 1px 8px black;
+  background: #7e9af5;
+  padding-top: 10px;
   padding-left: 20px;
   display: flex;
   width: 100%;
