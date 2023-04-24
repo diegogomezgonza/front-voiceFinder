@@ -7,22 +7,22 @@ import { ChartOptions } from 'chart.js';
   styleUrls: ['./time-graphic.component.scss'],
 })
 export class TimeGraphicComponent implements OnInit {
-
   //Info de mi gráfico
   public pieChartOptions: ChartOptions<'pie'> = {
     responsive: false,
-    color: "white"
+    color: 'white',
   };
-  public pieChartLabels = [ [ '13-17'], [ '18-24' ], ['25-34'], ['35-44'], ['45-54'], ['55-64'], ['64+'] ];
-  public pieChartDatasets = [ {
-    data: [ 73, 71, 59, 54, 40, 39, 44 ],
-    backgroundColor: ["#090979", "#790913", "#a41580", "#adadad", "black", "#a1b41b", "#793409"],
-  } ];
+  public pieChartLabels = [['13-17'], ['18-24'], ['25-34'], ['35-44']];
+  public pieChartDatasets = [
+    {
+      data: [73, 71, 59, 54],
+      backgroundColor: ['#055aaf', '#e4e208', '#00a8ff', '#f1ddcb'],
+    },
+  ];
   public pieChartLegend = true;
   public pieChartPlugins = [];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {}
-
 }
