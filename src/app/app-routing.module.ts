@@ -38,7 +38,19 @@ const routes: Routes = [
   {
     path: 'app-addict',
     loadChildren: () => import('./app-addict/app-addict.module').then( m => m.AppAddictPageModule)
+  },  {
+    path: 'app-cat-interview',
+    loadChildren: () => import('./app-cat-interview/app-cat-interview.module').then( m => m.AppCatInterviewPageModule)
   },
+  {
+    path: 'app-cat-freak',
+    loadChildren: () => import('./app-cat-freak/app-cat-freak.module').then( m => m.AppCatFreakPageModule)
+  },
+  {
+    path: 'app-cat-random',
+    loadChildren: () => import('./app-cat-random/app-cat-random.module').then( m => m.AppCatRandomPageModule)
+  },
+
 
 ];
 
