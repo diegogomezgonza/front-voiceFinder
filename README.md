@@ -4,6 +4,7 @@
 - Completar las dos opciones restantes de timelapse.
 - https://ionicframework.com/docs/api/badge
 - https://ionicframework.com/docs/api/select
-- En la vista de aplicaciones más usadas, añadir pistas de audio de los creadores hablando sobre las redes sociales.
+- En la vista de aplicaciones más usadas, añadir un video de Adria habando de redes sociales.
+
 
 
