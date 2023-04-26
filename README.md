@@ -1,4 +1,7 @@
 # front-voiceFinder
+- Login
+https://www.positronx.io/ionic-firebase-authentication-tutorial-with-examples/
+
 - Crear páginas (3) para las categorías de los podcast
 - Conexión con firebase para mostrar info de podcasts
 
