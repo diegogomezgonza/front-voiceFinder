@@ -6,6 +6,7 @@ import { HomeMySpaceComponent } from './home/home-my-space/home-my-space.compone
 import { HomeProfilesSlideComponent } from './home/home-profiles-slide/home-profiles-slide.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { HomeUserProfileComponent } from './home/home-user-profile/home-user-profile.component';
+import { HomeUserComponent } from './home/home-user/home-user.component';
 import { TimeGraphicComponent } from './time/time-graphic/time-graphic.component';
 import { TimeFooterComponent } from './time/time-footer/time-footer.component';
 import { TimeModalComponent } from './time/time-modal/time-modal.component';
@@ -27,6 +28,7 @@ import { NgChartsModule } from 'ng2-charts';
     HomeProfilesSlideComponent,
     HomeFooterComponent,
     HomeUserProfileComponent,
+    HomeUserComponent,
     TimeGraphicComponent,
     TimeFooterComponent,
     TimeModalComponent,
@@ -47,6 +49,7 @@ import { NgChartsModule } from 'ng2-charts';
     HomeProfilesSlideComponent,
     HomeFooterComponent,
     HomeUserProfileComponent,
+    HomeUserComponent,
     TimeGraphicComponent,
     TimeFooterComponent,
     TimeModalComponent,

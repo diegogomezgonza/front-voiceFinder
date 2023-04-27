@@ -1,0 +1,46 @@
+ion-content {
+  --ion-background-color: #213061;
+  --overflow: hidden;
+}
+
+ion-toolbar {
+  --background: #213061;
+  --ion-color-base: transparent !important;
+  height: 100px;
+}
+
+ion-item {
+  color: white;
+  --background: transparent !important;
+  ion-input {
+    --placeholder-color: white;
+    --placeholder-opacity: 1;
+  }
+}
+
+#vfLogo {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#vfTitulo {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#vfLogin {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#vfRegister {
+  font-weight: bold;
+}

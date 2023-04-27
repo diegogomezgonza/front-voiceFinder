@@ -1,13 +1,13 @@
-import {Component, OnInit} from '@angular/core';
-import {HttpClient, HttpHeaders} from "@angular/common/http";
+import { Component, OnInit } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { AuthService } from '../services/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-
-
 export class HomePage implements OnInit {
   // Atributos
   id: bigint | undefined;
@@ -17,36 +17,42 @@ export class HomePage implements OnInit {
 
   constructor(
     // Constructor
-    private httpClient: HttpClient,) {}
+    private httpClient: HttpClient,
+    private authService: AuthService,
+    private router: Router
+  ) {}
 
   ngOnInit() {}
 
+  async logout() {
+    await this.authService.logout();
+    this.router.navigateByUrl('/', { replaceUrl: true });
+  }
   // Insert
   public add() {
-    let data =
-      {
-        id: this.id,
-        titulo: this.titulo,
-        fecha: this.fecha,
-        valoracion: this.valoracion};
-    let headers = new HttpHeaders({"Content-Type": "application/json"})
-    this.httpClient.post("http://localhost:9000/api/add", data, {headers})
-      .subscribe((res) =>
-        console.log(res));
+    let data = {
+      id: this.id,
+      titulo: this.titulo,
+      fecha: this.fecha,
+      valoracion: this.valoracion,
+    };
+    let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    this.httpClient
+      .post('http://localhost:9000/api/add', data, { headers })
+      .subscribe((res) => console.log(res));
   }
 
   // Update
   update() {
-    let data =
-      {
-        id: this.id,
-        titulo: this.titulo,
-        fecha: this.fecha,
-        valoracion: this.valoracion};
-    let headers = new HttpHeaders({"Content-Type": "application/json"})
-    this.httpClient.put("http://localhost:9000/api/update/"+this.id, data, {headers})
-      .subscribe((res) =>
-        console.log(res));
+    let data = {
+      id: this.id,
+      titulo: this.titulo,
+      fecha: this.fecha,
+      valoracion: this.valoracion,
+    };
+    let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    this.httpClient
+      .put('http://localhost:9000/api/update/' + this.id, data, { headers })
+      .subscribe((res) => console.log(res));
   }
-
 }
