@@ -2,6 +2,7 @@
 - Login
 https://devdactic.com/ionic-firebase-auth-upload
 https://www.positronx.io/ionic-firebase-authentication-tutorial-with-examples/
+npm i @ionic/angular-toolkit@latest
 
 - Crear páginas (3) para las categorías de los podcast
 - Conexión con firebase para mostrar info de podcasts
