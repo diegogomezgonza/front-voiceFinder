@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home-category-slide',
@@ -7,8 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeCategorySlideComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {}
 
+  goInterview() {
+    this.router.navigate(['app-cat-interview']);
+  }
+
+  goFreak() {
+    this.router.navigate(['app-cat-freak']);
+  }
+
+  goRandom() {
+    this.router.navigate(['app-cat-random']);
+  }
 }

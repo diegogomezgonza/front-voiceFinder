@@ -1,6 +1,6 @@
 <ion-slides id="vfHomeSlide">
   <ion-slide>
-    <ion-card id="vfCard">
+    <ion-card id="vfCard" (click)="goInterview()">
       <ion-card-header>
         <ion-card-title id="vfHeadCard">ENTREVISTAS</ion-card-title>
         <ion-card-subtitle id="vfSubCard"
@@ -10,17 +10,18 @@
     </ion-card>
   </ion-slide>
   <ion-slide>
-    <ion-card id="vfCard">
+    <ion-card id="vfCard" (click)="goFreak()">
       <ion-card-header>
         <ion-card-title id="vfHeadCard">FREAK</ion-card-title>
         <ion-card-subtitle id="vfSubCard"
-          >Raideos y Mazmorras, Territorio revival, Alex al habla</ion-card-subtitle
+          >Raideos y Mazmorras, Territorio revival, Alex al
+          habla</ion-card-subtitle
         >
       </ion-card-header>
     </ion-card>
   </ion-slide>
   <ion-slide>
-    <ion-card id="vfCard">
+    <ion-card id="vfCard" (click)="goRandom()">
       <ion-card-header>
         <ion-card-title id="vfHeadCard">RANDOM</ion-card-title>
         <ion-card-subtitle id="vfSubCard"
