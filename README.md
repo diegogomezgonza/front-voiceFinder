@@ -1,7 +1,6 @@
 # Login
 - Repasar login (saber como funciona)
 https://devdactic.com/ionic-firebase-auth-upload
-https://www.positronx.io/ionic-firebase-authentication-tutorial-with-examples/
 npm i @ionic/angular-toolkit@latest
 
 # Categorias
