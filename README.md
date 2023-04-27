@@ -1,14 +1,18 @@
-# front-voiceFinder
-- Login
-https://devdactic.com/ionic-firebase-auth-upload
-https://www.positronx.io/ionic-firebase-authentication-tutorial-with-examples/
-npm i @ionic/angular-toolkit@latest
+# Login
+- Repasar login (saber como funciona)
+- https://devdactic.com/ionic-firebase-auth-upload
+- Comando por si falla ng o ionic: npm i @ionic/angular-toolkit@latest
 
-- Crear páginas (3) para las categorías de los podcast
+# Categorias
 - Conexión con firebase para mostrar info de podcasts
 
+# Diario
+- Conexión con firebase para ingresar notas (cabecera y contenido)
 
+# Podcast
+- Conexión con firebase para crear podcasts
 
+# Más usadas
 - En la vista de aplicaciones más usadas, añadir un video de Adria habando de redes sociales.
 - https://youtu.be/VNa2QfabPCw
 - https://ionicframework.com/docs/api/badge
