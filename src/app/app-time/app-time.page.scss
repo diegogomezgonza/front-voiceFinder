@@ -1,5 +1,5 @@
 ion-content {
-  --ion-background-color: #4a6cdf;
+  --ion-background-color: #213061;
 }
 
 #vfTitulo {
@@ -18,7 +18,7 @@ ion-content {
 }
 
 #vfTimeUseLb {
-  color: black;
+  color: white;
   padding-top: 10px;
   display: flex;
   width: 100%;
@@ -27,15 +27,9 @@ ion-content {
   font-weight: bold;
 }
 
-#vfToolbarTop {
-  --background: #7e9af5;
-}
-
 #vfToolbar {
   --background: #4a6cdf;
-  --ion-background-color: #4a6cdf;
+  
 }
 
-#vfFooter {
-  background-color: transparent !important;
-}
+

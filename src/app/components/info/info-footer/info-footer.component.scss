@@ -1,49 +1,14 @@
-ion-content {
-    --ion-background-color: #4a6cdf;
-  }
-  
-  #btnHome {
-    --box-shadow: none;
-  }
-  
-  ion-item {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  #vfTitulo {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  #vfItem{
-    --background: #4a6cdf;
-    border-color: #4a6cdf;
-  }
-  
-  #vfVersion{
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-  }
-  
-  #vfVersionDiv{
-    text-align: center;
-    padding-bottom: 15px;
-  }
-  
-  #vfToolbar {
-    --background: #4a6cdf;
-    --ion-background-color: #4a6cdf;
-  }
-  
-  #vfForm {
-    background-color: transparent !important;
-  }
-  
-  #vfFooter {
-    background-color: transparent !important;
-  }
-  
+#vfToolbar {
+  --background: #213061;
+}
+
+#vfVersion {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+#vfVersionDiv {
+  text-align: center;
+  padding-bottom: 15px;
+}

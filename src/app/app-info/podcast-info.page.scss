@@ -1,5 +1,5 @@
 ion-content {
-  --ion-background-color: #4a6cdf;
+  --ion-background-color: #213061;
 }
 
 #btnHome {
@@ -7,19 +7,17 @@ ion-content {
 }
 
 ion-item {
+  --background: #213061;
+  border-color: #213061;
   font-size: 20px;
   font-weight: bold;
 }
 
 #vfTitulo {
+  --background: #213061;
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-}
-
-#vfItem {
-  --background: #4a6cdf;
-  border-color: #4a6cdf;
 }
 
 #vfVersion {
@@ -34,19 +32,12 @@ ion-item {
   padding-bottom: 15px;
 }
 
-#vfToolbarTop {
-  --background: #7e9af5;
-}
-
 #vfToolbar {
   --background: #4a6cdf;
-  --ion-background-color: #4a6cdf;
+  
 }
 
 #vfForm {
   background-color: transparent !important;
 }
 
-#vfFooter {
-  background-color: transparent !important;
-}
