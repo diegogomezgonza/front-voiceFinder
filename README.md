@@ -1,7 +1,7 @@
 # Login
 - Repasar login (saber como funciona)
-https://devdactic.com/ionic-firebase-auth-upload
-npm i @ionic/angular-toolkit@latest
+- https://devdactic.com/ionic-firebase-auth-upload
+- Comando por si falla ng o ionic: npm i @ionic/angular-toolkit@latest
 
 # Categorias
 - Conexión con firebase para mostrar info de podcasts
