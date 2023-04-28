@@ -1,6 +1,6 @@
 # Más usadas
 - En la vista de aplicaciones más usadas, añadir un video de Adria habando de redes sociales.
-- https://youtu.be/VNa2QfabPCw
+- [https://youtu.be/VNa2QfabPCw]
 - - AIzaSyCx2A7GKKfvyGUrC_6h65kY4fB3HJ0cuCY
 
 # Login
