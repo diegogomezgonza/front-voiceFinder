@@ -15,6 +15,7 @@ import { AddictFooterComponent } from './addict/addict-footer/addict-footer.comp
 import { ProfileFooterComponent } from './profile/profile-footer/profile-footer.component';
 import { MostUsedFooterComponent } from './mostUsed/most-used-footer/most-used-footer.component';
 import { MostUsedModalComponent } from './mostUsed/most-used-modal/most-used-modal.component';
+import { MostUsedYoutubeComponent } from './mostUsed/most-used-youtube/most-used-youtube.component';
 import { UseTimeFooterComponent } from './useTime/use-time-footer/use-time-footer.component';
 import { UseTimeVideosComponent } from './useTime/use-time-videos/use-time-videos.component';
 import { UseTimeModalComponent } from './useTime/use-time-modal/use-time-modal.component';
@@ -37,6 +38,7 @@ import { NgChartsModule } from 'ng2-charts';
     ProfileFooterComponent,
     MostUsedFooterComponent,
     MostUsedModalComponent,
+    MostUsedYoutubeComponent,
     UseTimeFooterComponent,
     UseTimeVideosComponent,
     UseTimeModalComponent,
@@ -58,6 +60,7 @@ import { NgChartsModule } from 'ng2-charts';
     ProfileFooterComponent,
     MostUsedFooterComponent,
     MostUsedModalComponent,
+    MostUsedYoutubeComponent,
     UseTimeFooterComponent,
     UseTimeVideosComponent,
     UseTimeModalComponent,

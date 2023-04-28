@@ -1,34 +1,20 @@
-.block {
-  font-weight: bold;
+#vfCard {
+  margin: auto;
+  display: block;
+  --background: transparent;
+}
+
+#vfTitle {
+  text-align: center;
   color: white;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#vfPodcastPic {
-  padding-right: 10px;
-  height: 60px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+#vfSub {
+  text-align: center;
+  color: white;
 }
 
-#vfLink {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-#vfModal {
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-
-ion-modal {
-  --height: auto;
+#vfContent {
+  text-align: center;
+  color: white;
 }
