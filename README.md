@@ -2,10 +2,8 @@
 - Comando por si falla ng o ionic: npm i @ionic/angular-toolkit@latest
 - Iniciar app en ruta seleccionada: ionic capacitor run android --livereload-url=http://localhost:8100
 
-# Más usadas
-- En la vista de aplicaciones más usadas, añadir un video de Adria habando de redes sociales.
-- [https://youtu.be/VNa2QfabPCw]
-- - AIzaSyCx2A7GKKfvyGUrC_6h65kY4fB3HJ0cuCY
+# Contenido para tiempo de uso 
+- Buscar contenido para tiempo de uso del móvil
 
 # Login
 - Repasar login (saber como funciona)
