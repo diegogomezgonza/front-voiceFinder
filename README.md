@@ -1,3 +1,7 @@
+# Comandos
+- Comando por si falla ng o ionic: npm i @ionic/angular-toolkit@latest
+- Iniciar app en ruta seleccionada: ionic capacitor run android --livereload-url=http://localhost:8100
+
 # Más usadas
 - En la vista de aplicaciones más usadas, añadir un video de Adria habando de redes sociales.
 - [https://youtu.be/VNa2QfabPCw]
@@ -6,7 +10,6 @@
 # Login
 - Repasar login (saber como funciona)
 - https://devdactic.com/ionic-firebase-auth-upload
-- Comando por si falla ng o ionic: npm i @ionic/angular-toolkit@latest
 
 # Categorias
 - Conexión con firebase para mostrar info de podcasts
