@@ -21,6 +21,14 @@
 # Podcast
 - Conexión con firebase para crear podcasts
 
+# Usuario
+- Completar perfil de usuario (mostrar email) 
+
+# Info
+- Mostrar versión actual de VF y decir cual será la siguiente actualización.
+- Mostrar las versiones de software que usa (capacitor, ionic, angular, etc...)
+
+
 
 
 
