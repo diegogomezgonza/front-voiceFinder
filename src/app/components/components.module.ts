@@ -10,6 +10,7 @@ import { HomeUserComponent } from './home/home-user/home-user.component';
 import { TimeGraphicComponent } from './time/time-graphic/time-graphic.component';
 import { TimeFooterComponent } from './time/time-footer/time-footer.component';
 import { TimeModalComponent } from './time/time-modal/time-modal.component';
+import { TimeInfoComponent } from './time/time-info/time-info.component';
 import { AddictCardsComponent } from './addict/addict-cards/addict-cards.component';
 import { AddictFooterComponent } from './addict/addict-footer/addict-footer.component';
 import { ProfileFooterComponent } from './profile/profile-footer/profile-footer.component';
@@ -19,6 +20,7 @@ import { MostUsedYoutubeComponent } from './mostUsed/most-used-youtube/most-used
 import { UseTimeFooterComponent } from './useTime/use-time-footer/use-time-footer.component';
 import { UseTimeVideosComponent } from './useTime/use-time-videos/use-time-videos.component';
 import { UseTimeModalComponent } from './useTime/use-time-modal/use-time-modal.component';
+import { UseTimeInfoComponent } from './useTime/use-time-info/use-time-info.component';
 import { InfoFooterComponent } from './info/info-footer/info-footer.component';
 import { NgChartsModule } from 'ng2-charts';
 
@@ -33,6 +35,7 @@ import { NgChartsModule } from 'ng2-charts';
     TimeGraphicComponent,
     TimeFooterComponent,
     TimeModalComponent,
+    TimeInfoComponent,
     AddictCardsComponent,
     AddictFooterComponent,
     ProfileFooterComponent,
@@ -42,6 +45,7 @@ import { NgChartsModule } from 'ng2-charts';
     UseTimeFooterComponent,
     UseTimeVideosComponent,
     UseTimeModalComponent,
+    UseTimeInfoComponent,
     InfoFooterComponent,
   ],
   imports: [CommonModule, NgChartsModule, IonicModule],
@@ -55,6 +59,7 @@ import { NgChartsModule } from 'ng2-charts';
     TimeGraphicComponent,
     TimeFooterComponent,
     TimeModalComponent,
+    TimeInfoComponent,
     AddictCardsComponent,
     AddictFooterComponent,
     ProfileFooterComponent,
@@ -64,6 +69,7 @@ import { NgChartsModule } from 'ng2-charts';
     UseTimeFooterComponent,
     UseTimeVideosComponent,
     UseTimeModalComponent,
+    UseTimeInfoComponent,
     InfoFooterComponent,
   ],
 })
