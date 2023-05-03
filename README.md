@@ -4,6 +4,7 @@
 
 # Usuario
 - Completar perfil de usuario (mostrar email) 
+- https://youtu.be/ccrBTDa6qd0
 
 # Info
 - Mostrar versión actual de VF y decir cual será la siguiente actualización.
