@@ -6,10 +6,6 @@
 - Completar perfil de usuario (mostrar email) 
 - https://youtu.be/ccrBTDa6qd0
 
-# Info
-- Mostrar versión actual de VF y decir cual será la siguiente actualización.
-- Mostrar las versiones de software que usa (capacitor, ionic, angular, etc...)
-
 # Categorias
 - Conexión con firebase para mostrar info de podcasts
 
