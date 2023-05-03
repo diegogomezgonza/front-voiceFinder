@@ -8,12 +8,14 @@ import { AppCatRandomPageRoutingModule } from './app-cat-random-routing.module';
 
 import { AppCatRandomPage } from './app-cat-random.page';
 
+import { ComponentsModule } from '../components/components.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AppCatRandomPageRoutingModule
+    AppCatRandomPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [AppCatRandomPage]
 })

@@ -8,12 +8,14 @@ import { AppCatInterviewPageRoutingModule } from './app-cat-interview-routing.mo
 
 import { AppCatInterviewPage } from './app-cat-interview.page';
 
+import { ComponentsModule } from '../components/components.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AppCatInterviewPageRoutingModule
+    AppCatInterviewPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [AppCatInterviewPage]
 })

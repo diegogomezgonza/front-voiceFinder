@@ -1,9 +1,18 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>app-catInterview</ion-title>
+<!-- Header -->
+<ion-header [translucent]="true">
+  <!-- Toolbar -->
+  <ion-toolbar id="vfToolbar">
+    <!-- Título -->
+    <ion-title id="vfTitulo"> Entrevistas </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<!-- Comienzo del content -->
+<ion-content [fullscreen]="true">
 
 </ion-content>
+
+<!-- Footer -->
+<ion-footer collapse="fade" id="vfFooter">
+  <app-interview-footer></app-interview-footer>
+</ion-footer>

@@ -1,9 +1,18 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>app-catFreak</ion-title>
+<!-- Header -->
+<ion-header [translucent]="true">
+  <!-- Toolbar -->
+  <ion-toolbar id="vfToolbar">
+    <!-- Título -->
+    <ion-title id="vfTitulo"> Freak </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<!-- Comienzo del content -->
+<ion-content [fullscreen]="true">
 
 </ion-content>
+
+<!-- Footer -->
+<ion-footer collapse="fade" id="vfFooter">
+  <app-freak-footer></app-freak-footer>
+</ion-footer>

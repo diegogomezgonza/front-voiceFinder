@@ -8,12 +8,15 @@ import { AppCatFreakPageRoutingModule } from './app-cat-freak-routing.module';
 
 import { AppCatFreakPage } from './app-cat-freak.page';
 
+import { ComponentsModule } from "../components/components.module";
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AppCatFreakPageRoutingModule
+    AppCatFreakPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [AppCatFreakPage]
 })

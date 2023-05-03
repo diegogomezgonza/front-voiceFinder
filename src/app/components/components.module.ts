@@ -23,6 +23,9 @@ import { UseTimeModalComponent } from './useTime/use-time-modal/use-time-modal.c
 import { UseTimeInfoComponent } from './useTime/use-time-info/use-time-info.component';
 import { InfoFooterComponent } from './info/info-footer/info-footer.component';
 import { InfoContentComponent } from './info/info-content/info-content.component';
+import { InterviewFooterComponent } from './cats/interview-footer/interview-footer.component';
+import { FreakFooterComponent } from './cats/freak-footer/freak-footer.component';
+import { RandomFooterComponent } from './cats/random-footer/random-footer.component';
 import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
@@ -48,7 +51,10 @@ import { NgChartsModule } from 'ng2-charts';
     UseTimeModalComponent,
     UseTimeInfoComponent,
     InfoFooterComponent,
-    InfoContentComponent
+    InterviewFooterComponent,
+    InfoContentComponent,
+    FreakFooterComponent,
+    RandomFooterComponent
   ],
   imports: [CommonModule, NgChartsModule, IonicModule],
   exports: [
@@ -73,7 +79,10 @@ import { NgChartsModule } from 'ng2-charts';
     UseTimeModalComponent,
     UseTimeInfoComponent,
     InfoFooterComponent,
-    InfoContentComponent
+    InfoContentComponent,
+    InterviewFooterComponent,
+    FreakFooterComponent,
+    RandomFooterComponent
   ],
 })
 export class ComponentsModule {}
