@@ -3,7 +3,7 @@
 - Iniciar app en ruta seleccionada: ionic capacitor run android --livereload-url=http://localhost:8100
 
 # Contenido para tiempo de uso 
-- Gráfico de barras mostrando el tiempo de uso de cada aplicación en el móvil.
+- Poner apartados en lista para acceder a info sobre aplicaciones.
 
 # Categorias
 - Conexión con firebase para mostrar info de podcasts
