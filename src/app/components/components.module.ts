@@ -22,6 +22,7 @@ import { UseTimeVideosComponent } from './useTime/use-time-videos/use-time-video
 import { UseTimeModalComponent } from './useTime/use-time-modal/use-time-modal.component';
 import { UseTimeInfoComponent } from './useTime/use-time-info/use-time-info.component';
 import { InfoFooterComponent } from './info/info-footer/info-footer.component';
+import { InfoContentComponent } from './info/info-content/info-content.component';
 import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
@@ -47,6 +48,7 @@ import { NgChartsModule } from 'ng2-charts';
     UseTimeModalComponent,
     UseTimeInfoComponent,
     InfoFooterComponent,
+    InfoContentComponent
   ],
   imports: [CommonModule, NgChartsModule, IonicModule],
   exports: [
@@ -71,6 +73,7 @@ import { NgChartsModule } from 'ng2-charts';
     UseTimeModalComponent,
     UseTimeInfoComponent,
     InfoFooterComponent,
+    InfoContentComponent
   ],
 })
 export class ComponentsModule {}
