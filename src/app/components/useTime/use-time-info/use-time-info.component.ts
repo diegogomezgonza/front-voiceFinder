@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UseTimeInfoComponent  implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {}
