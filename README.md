@@ -2,8 +2,12 @@
 - Comando por si falla ng o ionic: npm i @ionic/angular-toolkit@latest
 - Iniciar app en ruta seleccionada: ionic capacitor run android --livereload-url=http://localhost:8100
 
-# Contenido para tiempo de uso 
-- Poner apartados en lista para acceder a info sobre aplicaciones.
+# Usuario
+- Completar perfil de usuario (mostrar email) 
+
+# Info
+- Mostrar versión actual de VF y decir cual será la siguiente actualización.
+- Mostrar las versiones de software que usa (capacitor, ionic, angular, etc...)
 
 # Categorias
 - Conexión con firebase para mostrar info de podcasts
@@ -13,13 +17,6 @@
 
 # Podcast
 - Conexión con firebase para crear podcasts
-
-# Usuario
-- Completar perfil de usuario (mostrar email) 
-
-# Info
-- Mostrar versión actual de VF y decir cual será la siguiente actualización.
-- Mostrar las versiones de software que usa (capacitor, ionic, angular, etc...)
 
 # Login
 - Repasar login (saber como funciona)
