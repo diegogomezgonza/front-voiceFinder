@@ -16,9 +16,9 @@ export class ActionFormComponent  implements OnInit {
   ) {
     this.formulario = new FormGroup({
       name: new FormControl(),
-      latitude: new FormControl(),
-      longitude: new FormControl(),
       description: new FormControl(),
+      author: new FormControl(),
+      theme: new FormControl(),
       image: new FormControl()
     })
   }

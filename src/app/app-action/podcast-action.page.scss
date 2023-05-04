@@ -1,31 +1,16 @@
 ion-content {
-  --ion-background-color: #4a6cdf;
-}
-
-#btnHome {
-  --box-shadow: none;
-}
-
-ion-item {
-  font-size: 20px;
-  font-weight: bold;
+  --ion-background-color: #213061;
+  --overflow: hidden;
 }
 
 #vfTitulo {
+  justify-content: center;
+  display: flex;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 #vfToolbar {
   --background: #4a6cdf;
-  --ion-background-color: #4a6cdf;
-}
-
-#vfForm {
-  background-color: transparent !important;
-}
-
-#vfFooter {
-  background-color: transparent !important;
 }

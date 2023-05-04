@@ -26,7 +26,8 @@ import { InfoContentComponent } from './info/info-content/info-content.component
 import { InterviewFooterComponent } from './cats/interview-footer/interview-footer.component';
 import { FreakFooterComponent } from './cats/freak-footer/freak-footer.component';
 import { RandomFooterComponent } from './cats/random-footer/random-footer.component';
-import { ActionFormComponent } from './action-form/action-form.component';
+import { ActionFooterComponent } from './action/action-footer/action-footer.component';
+import { ActionFormComponent } from './action/action-form/action-form.component';
 import { NgChartsModule } from 'ng2-charts';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -57,6 +58,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     InfoContentComponent,
     FreakFooterComponent,
     RandomFooterComponent,
+    ActionFooterComponent,
     ActionFormComponent
   ],
   imports: [CommonModule, NgChartsModule, IonicModule, ReactiveFormsModule],
@@ -86,6 +88,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     InterviewFooterComponent,
     FreakFooterComponent,
     RandomFooterComponent,
+    ActionFooterComponent,
     ActionFormComponent
   ],
 })
