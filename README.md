@@ -16,8 +16,8 @@
 - Conexión con firebase para ingresar notas (cabecera y contenido)
 
 # Podcast
-- Poder subir portada de podcast
-- Opción para ver los podcast creados (una page para crear y otra para ver)
+- Poder subir portada de podcast al crearlo
+- Opción para ver los podcast creados (page myPodcast) 
 
 # Login
 - Repasar login (saber como funciona)
