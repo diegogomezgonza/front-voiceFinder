@@ -10,14 +10,14 @@
 - https://github.com/GarajedeIdeas/CodePills-CRUD-AngularFirebase
 
 # Categorias
-- Conexión con firebase para mostrar info de podcasts
+- Consultar categorias (solo leer)
 
 # Diario
-- Conexión con firebase para ingresar notas (cabecera y contenido)
+- Crear y eliminar notas
 
 # Podcast
 - Poder subir portada de podcast al crearlo
-- Opción para ver los podcast creados (page myPodcast) 
+- Poder ver y borrar podcast en myPodcast
 
 # Login
 - Repasar login (saber como funciona)
