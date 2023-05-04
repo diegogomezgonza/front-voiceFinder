@@ -9,6 +9,9 @@ import { AppMyPodcastPageRoutingModule } from './app-my-podcast-routing.module';
 import { AppMyPodcastPage } from './app-my-podcast.page';
 
 import { ComponentsModule } from '../components/components.module';
+
+import { ScrollingModule } from '@angular/cdk/scrolling';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -16,6 +19,7 @@ import { ComponentsModule } from '../components/components.module';
     IonicModule,
     AppMyPodcastPageRoutingModule,
     ComponentsModule,
+    ScrollingModule
   ],
   declarations: [AppMyPodcastPage],
 })

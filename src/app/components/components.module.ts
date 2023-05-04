@@ -32,6 +32,7 @@ import { ActionFormComponent } from './action/action-form/action-form.component'
 import { ActionPodcastsComponent } from './action/action-podcasts/action-podcasts.component';
 import { NgChartsModule } from 'ng2-charts';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ActionFormComponent,
     ActionPodcastsComponent
   ],
-  imports: [CommonModule, NgChartsModule, IonicModule, ReactiveFormsModule],
+  imports: [CommonModule, NgChartsModule, IonicModule, ReactiveFormsModule, ScrollingModule],
   exports: [
     HomeCategorySlideComponent,
     HomeMySpaceComponent,

@@ -19,7 +19,6 @@ export class ActionFormComponent implements OnInit {
       name: new FormControl(),
       author: new FormControl(),
       theme: new FormControl(),
-      image: new FormControl(),
     });
   }
 

@@ -1,3 +1,12 @@
-<p>
-  action-podcasts works!
-</p>
+<div class="podcast">
+  <div class="pod" *ngFor="let pod of podcast">
+      <div class="info">
+          <h1 id="vfTitle">{{pod.name}}</h1>
+          <h3 id="vfTheme">{{pod.theme}}</h3>
+          <p id="vfAuthor">{{pod.author}}</p>
+          <ion-button id="vfDelete" color="danger"(click)="onClickDelete(pod)"><ion-icon name="trash-outline"></ion-icon></ion-button>
+
+      </div>
+  </div>
+</div>
+
