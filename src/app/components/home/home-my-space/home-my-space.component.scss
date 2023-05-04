@@ -1,11 +1,25 @@
-  #vfCardTitle{
-    text-align: center;
-  }
-  
-  #vfHomeSpace{
-    height: 130px;
-  }
-  
+#vfCard {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  display: block;
+  width: 90%;
+}
 
-   
-  
+#vfTitle {
+  text-align: center;
+  color: white;
+}
+
+#vfSub {
+  text-align: center;
+  color: white;
+}
+
+#vfContent {
+  text-align: center;
+  color: white;
+}
+
+
+
