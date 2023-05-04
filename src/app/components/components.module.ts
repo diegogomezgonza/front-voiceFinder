@@ -7,6 +7,7 @@ import { HomeProfilesSlideComponent } from './home/home-profiles-slide/home-prof
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { HomeUserProfileComponent } from './home/home-user-profile/home-user-profile.component';
 import { HomeUserComponent } from './home/home-user/home-user.component';
+import { HomeFabbuttonComponent } from './home/home-fabbutton/home-fabbutton.component';
 import { TimeGraphicComponent } from './time/time-graphic/time-graphic.component';
 import { TimeFooterComponent } from './time/time-footer/time-footer.component';
 import { TimeModalComponent } from './time/time-modal/time-modal.component';
@@ -28,6 +29,7 @@ import { FreakFooterComponent } from './cats/freak-footer/freak-footer.component
 import { RandomFooterComponent } from './cats/random-footer/random-footer.component';
 import { ActionFooterComponent } from './action/action-footer/action-footer.component';
 import { ActionFormComponent } from './action/action-form/action-form.component';
+import { ActionPodcastsComponent } from './action/action-podcasts/action-podcasts.component';
 import { NgChartsModule } from 'ng2-charts';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -39,6 +41,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeFooterComponent,
     HomeUserProfileComponent,
     HomeUserComponent,
+    HomeFabbuttonComponent,
     TimeGraphicComponent,
     TimeFooterComponent,
     TimeModalComponent,
@@ -59,7 +62,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     FreakFooterComponent,
     RandomFooterComponent,
     ActionFooterComponent,
-    ActionFormComponent
+    ActionFormComponent,
+    ActionPodcastsComponent
   ],
   imports: [CommonModule, NgChartsModule, IonicModule, ReactiveFormsModule],
   exports: [
@@ -69,6 +73,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeFooterComponent,
     HomeUserProfileComponent,
     HomeUserComponent,
+    HomeFabbuttonComponent,
     TimeGraphicComponent,
     TimeFooterComponent,
     TimeModalComponent,
@@ -89,7 +94,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     FreakFooterComponent,
     RandomFooterComponent,
     ActionFooterComponent,
-    ActionFormComponent
+    ActionFormComponent,
+    ActionPodcastsComponent
   ],
 })
 export class ComponentsModule {}

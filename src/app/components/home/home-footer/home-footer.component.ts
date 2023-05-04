@@ -12,11 +12,6 @@ export class HomeFooterComponent implements OnInit {
 
   ngOnInit() {}
 
-  // Función ir a crear/ver podcast
-  goAction() {
-    this.router.navigate(['podcast-action']);
-  }
-
   // Función ir a información podcast
   goInfo() {
     this.router.navigate(['podcast-info']);
