@@ -26,7 +26,9 @@ import { InfoContentComponent } from './info/info-content/info-content.component
 import { InterviewFooterComponent } from './cats/interview-footer/interview-footer.component';
 import { FreakFooterComponent } from './cats/freak-footer/freak-footer.component';
 import { RandomFooterComponent } from './cats/random-footer/random-footer.component';
+import { ActionFormComponent } from './action-form/action-form.component';
 import { NgChartsModule } from 'ng2-charts';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -54,9 +56,10 @@ import { NgChartsModule } from 'ng2-charts';
     InterviewFooterComponent,
     InfoContentComponent,
     FreakFooterComponent,
-    RandomFooterComponent
+    RandomFooterComponent,
+    ActionFormComponent
   ],
-  imports: [CommonModule, NgChartsModule, IonicModule],
+  imports: [CommonModule, NgChartsModule, IonicModule, ReactiveFormsModule],
   exports: [
     HomeCategorySlideComponent,
     HomeMySpaceComponent,
@@ -82,7 +85,8 @@ import { NgChartsModule } from 'ng2-charts';
     InfoContentComponent,
     InterviewFooterComponent,
     FreakFooterComponent,
-    RandomFooterComponent
+    RandomFooterComponent,
+    ActionFormComponent
   ],
 })
 export class ComponentsModule {}

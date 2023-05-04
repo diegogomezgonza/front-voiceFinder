@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Firestore, collection, collectionData } from '@angular/fire/firestore';
+import { Firestore, addDoc, collection, collectionData } from '@angular/fire/firestore';
+import Podcast from '../Interfaces/podcast.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -8,8 +9,8 @@ export class DataService {
 
   constructor(private firestore: Firestore) { }
 
-  getNotes() {
-    const notesRef = collection(this.firestore, 'notes');
-    return collectionData(notesRef, {idField:'myName'})
+  addPodcast(podcast: Podcast) {
+    const podcastRef = collection(this.firestore, 'podcast');
+    return addDoc(podcastRef, podcast);
   }
 }

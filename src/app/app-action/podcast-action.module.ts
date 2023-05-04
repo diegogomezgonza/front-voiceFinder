@@ -8,12 +8,14 @@ import { PodcastActionPageRoutingModule } from './podcast-action-routing.module'
 
 import { PodcastActionPage } from './podcast-action.page';
 
+import { ComponentsModule } from '../components/components.module';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PodcastActionPageRoutingModule
+    PodcastActionPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [PodcastActionPage]
 })
