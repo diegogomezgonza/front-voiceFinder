@@ -5,6 +5,7 @@
 # Usuario
 - Completar perfil de usuario (mostrar email) 
 - https://youtu.be/ccrBTDa6qd0
+- https://youtu.be/t_YSrxj0wGY
 
 # Categorias
 - Conexión con firebase para mostrar info de podcasts
