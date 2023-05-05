@@ -1,5 +1,6 @@
 #vfPodcastPic {
-  height: 70px;
+  margin-top: 30px;
+  height: 90px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -7,14 +8,13 @@
   -o-border-radius: 50%;
 }
 
-#vfPodcastLb {
-  color: rgb(252, 148, 28);
-  padding-left: 10px;
-}
+
 
 #vfLink {
+  margin-top: 30px;
   color: white;
-  padding-left: 10px;
+  padding-left: 20px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
 }
