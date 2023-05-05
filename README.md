@@ -11,7 +11,6 @@
 
 # Categorias
 - Enlaces a las plataformas con iconos (spotify, youtube twitch, etc...)
-- Texto explicativo el cual indique que podemos crear nuestro podcast y que los demás pueden verlo. 
 
 # Extra
 - Repasar login (saber como funciona)
@@ -19,6 +18,7 @@
 - Probar añadir un campo más a podcast (plataforma disponible)
 - Splash screen
 - Conseguir ejecutar voice finder en url personalizada
+- Comentar y estructurar código
 
 
 
