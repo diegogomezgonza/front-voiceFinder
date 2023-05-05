@@ -10,7 +10,7 @@
 - Completar perfil de usuario (mostrar email) 
 
 # Categorias
-- Consultar categorias (solo leer las colecciones de Firebase)
+- Enlaces a las plataformas con iconos (spotify, youtube twitch, etc...)
 - Texto explicativo el cual indique que podemos crear nuestro podcast y que los demás pueden verlo. 
 
 # Extra
