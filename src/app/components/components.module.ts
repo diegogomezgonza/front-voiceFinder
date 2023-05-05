@@ -30,6 +30,9 @@ import { RandomFooterComponent } from './cats/random-footer/random-footer.compon
 import { ActionFooterComponent } from './action/action-footer/action-footer.component';
 import { ActionFormComponent } from './action/action-form/action-form.component';
 import { ActionPodcastsComponent } from './action/action-podcasts/action-podcasts.component';
+import { FreakContentComponent } from './category/freak-content/freak-content.component';
+import { InterviewContentComponent } from './category/interview-content/interview-content.component';
+import { RandomContentComponent } from './category/random-content/random-content.component';
 import { NgChartsModule } from 'ng2-charts';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ScrollingModule } from '@angular/cdk/scrolling';
@@ -64,7 +67,10 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     RandomFooterComponent,
     ActionFooterComponent,
     ActionFormComponent,
-    ActionPodcastsComponent
+    ActionPodcastsComponent,
+    FreakContentComponent,
+    InterviewContentComponent,
+    RandomContentComponent
   ],
   imports: [CommonModule, NgChartsModule, IonicModule, ReactiveFormsModule, ScrollingModule],
   exports: [
@@ -96,7 +102,10 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     RandomFooterComponent,
     ActionFooterComponent,
     ActionFormComponent,
-    ActionPodcastsComponent
+    ActionPodcastsComponent,
+    FreakContentComponent,
+    InterviewContentComponent,
+    RandomContentComponent
   ],
 })
 export class ComponentsModule {}
