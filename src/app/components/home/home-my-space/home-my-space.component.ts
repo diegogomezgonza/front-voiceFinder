@@ -6,9 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-my-space.component.scss'],
 })
 export class HomeMySpaceComponent implements OnInit {
+  isModalOpen = false;
 
-  constructor() { }
+  setOpen(isOpen: boolean) {
+    this.isModalOpen = isOpen;
+  }
+  constructor() {}
 
   ngOnInit() {}
-
 }

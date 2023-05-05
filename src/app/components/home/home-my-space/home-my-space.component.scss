@@ -1,24 +1,17 @@
-#vfCard {
-  margin: auto;
-  margin-top: 80px;
-  margin-bottom: 10px;
-  display: block;
-  width: 90%;
+ion-content {
+  --ion-background-color: #213061;
+  --overflow: hidden;
 }
 
-#vfTitle {
-  text-align: center;
-  color: white;
+#vfButton{
+  margin-left: 45px;
+  margin-top: 105px;
+  width: 80%;
+  height: 60px;
 }
 
-#vfSub {
-  text-align: center;
-  color: white;
-}
-
-#vfContent {
-  text-align: center;
-  color: white;
+#vfToolbar {
+  --background: #4a6cdf;
 }
 
 

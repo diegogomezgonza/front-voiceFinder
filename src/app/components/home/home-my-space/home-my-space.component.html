@@ -1,6 +1,22 @@
-<ion-card id="vfCard">
+<ion-button expand="block" shape="round" color="success" id="vfButton" (click)="setOpen(true)"
+  >Categorías y contenido</ion-button
+>
+<ion-modal [isOpen]="isModalOpen">
+  <ng-template>
+    <ion-header>
+      <ion-toolbar id="vfToolbar">
+        <ion-title>Categorías y contenido</ion-title>
+        <ion-buttons slot="end">
+          <ion-button (click)="setOpen(false)">Cerrar</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <p>
+        Puedes acceder a las categorías para ver información detallada o acceder
+        directamente a los canales recomendados.
+      </p>
+    </ion-content>
+  </ng-template>
+</ion-modal>
 
-  <ion-card-content id="vfContent">
-    Puedes acceder a las categorías para ver información detallada o acceder directamente a los canales recomendados.
-  </ion-card-content>
-</ion-card>
