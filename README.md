@@ -17,6 +17,8 @@
 - Repasar login (saber como funciona)
 - https://devdactic.com/ionic-firebase-auth-upload
 - Probar añadir un campo más a podcast (plataforma disponible)
+- Splash screen
+- Conseguir ejecutar voice finder en url personalizada
 
 
 
