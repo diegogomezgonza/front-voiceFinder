@@ -4,7 +4,7 @@
 - Reglas de Firebase: https://stackoverflow.com/questions/46590155/firestore-permission-denied-missing-or-insufficient-permissions
 - https://youtu.be/ccrBTDa6qd0
 - https://youtu.be/t_YSrxj0wGY
-- https://youtu.be/gUSyXQ1jc9E
+- https://youtu.be/gUSyXQ1jc9E  Minuto 15:40
 - https://github.com/GarajedeIdeas/CodePills-CRUD-AngularFirebase
 
 # Usuario
