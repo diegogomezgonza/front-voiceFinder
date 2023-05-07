@@ -1,25 +1,13 @@
-<ion-fab vertical="bottom" horizontal="end" id="vfFab">
-  <ion-fab-button color="dark">
+<ion-fab id="vfFab">
+  <ion-fab-button size="small" color="dark">
     <ion-icon name="mic-outline" id="vfIcon"></ion-icon>
   </ion-fab-button>
   <ion-fab-list side="top">
-    <ion-button
-      type="button"
-      (click)="goAction()"
-      color="primary"
-      shape="round"
-      size="large"
-    >
+    <ion-fab-button color="success" id="vfSubIcon" (click)="goWatch()">
+      <ion-icon name="eye-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button color="primary" id="vfSubIcon" (click)="goAction()">
       <ion-icon name="add-outline"></ion-icon>
-    </ion-button>
-    <ion-button
-      type="button"
-      (click)="goWatch()"
-      color="success"
-      shape="round"
-      size="large"
-    >
-      <ion-icon name="eye-outline" id="vfSubIcon"></ion-icon>
-    </ion-button>
+    </ion-fab-button>
   </ion-fab-list>
 </ion-fab>
