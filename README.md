@@ -1,7 +1,7 @@
 # Categorias
 - Enlaces a las plataformas con iconos (spotify, youtube twitch, etc...)
 
-#Contenido futuro
+# Contenido futuro
 - Probar añadir un campo más a podcast (plataforma disponible)
 
 # Extra
