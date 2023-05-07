@@ -9,19 +9,23 @@ import {
 const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['']);
 const redirectLoggedInToHome = () => redirectLoggedInTo(['home']);
 
+//Rutas de Voice Finder
 const routes: Routes = [
+  //Login
   {
     path: '',
     loadChildren: () =>
       import('./login/login.module').then((m) => m.LoginPageModule),
     ...canActivate(redirectLoggedInToHome),
   },
+  //Home
   {
     path: 'home',
     loadChildren: () =>
       import('./home/home.module').then((m) => m.HomePageModule),
     ...canActivate(redirectUnauthorizedToLogin),
   },
+  //Info de versiones
   {
     path: 'podcast-info',
     loadChildren: () =>
@@ -29,6 +33,7 @@ const routes: Routes = [
         (m) => m.PodcastInfoPageModule
       ),
   },
+  //Crear podcast
   {
     path: 'podcast-action',
     loadChildren: () =>
@@ -36,11 +41,13 @@ const routes: Routes = [
         (m) => m.PodcastActionPageModule
       ),
   },
+  //Adicción por edades
   {
     path: 'app-time',
     loadChildren: () =>
       import('./app-time/app-time.module').then((m) => m.AppTimePageModule),
   },
+  //Usuario
   {
     path: 'app-profile',
     loadChildren: () =>
@@ -48,6 +55,7 @@ const routes: Routes = [
         (m) => m.AppProfilePageModule
       ),
   },
+  //Aplicaciones más usadas
   {
     path: 'app-use-time',
     loadChildren: () =>
@@ -55,6 +63,7 @@ const routes: Routes = [
         (m) => m.AppUseTimePageModule
       ),
   },
+  //Redes sociales
   {
     path: 'app-most-used',
     loadChildren: () =>
@@ -62,6 +71,7 @@ const routes: Routes = [
         (m) => m.AppMostUsedPageModule
       ),
   },
+  //Timelapse
   {
     path: 'app-addict',
     loadChildren: () =>
@@ -69,6 +79,7 @@ const routes: Routes = [
         (m) => m.AppAddictPageModule
       ),
   },
+  //Categoría interview
   {
     path: 'app-cat-interview',
     loadChildren: () =>
@@ -76,6 +87,7 @@ const routes: Routes = [
         (m) => m.AppCatInterviewPageModule
       ),
   },
+  //Categoría freak
   {
     path: 'app-cat-freak',
     loadChildren: () =>
@@ -83,6 +95,7 @@ const routes: Routes = [
         (m) => m.AppCatFreakPageModule
       ),
   },
+  //Categoría random
   {
     path: 'app-cat-random',
     loadChildren: () =>
@@ -90,6 +103,7 @@ const routes: Routes = [
         (m) => m.AppCatRandomPageModule
       ),
   },
+  //Visualizar podcasts
   {
     path: 'app-my-podcast',
     loadChildren: () =>

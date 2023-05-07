@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeMySpaceComponent implements OnInit {
   isModalOpen = false;
 
+  //Abrir modal
   setOpen(isOpen: boolean) {
     this.isModalOpen = isOpen;
   }

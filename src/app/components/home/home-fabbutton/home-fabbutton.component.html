@@ -1,11 +1,15 @@
+<!-- Fab button -->
 <ion-fab id="vfFab">
+  <!-- Botón micrófono -->
   <ion-fab-button size="small" color="dark">
     <ion-icon name="mic-outline" id="vfIcon"></ion-icon>
   </ion-fab-button>
   <ion-fab-list side="top">
+    <!-- Botón ver podcasts -->
     <ion-fab-button color="success" id="vfSubIcon" (click)="goWatch()">
       <ion-icon name="eye-outline"></ion-icon>
     </ion-fab-button>
+    <!-- Botón crear podcasts -->
     <ion-fab-button color="primary" id="vfSubIcon" (click)="goAction()">
       <ion-icon name="add-outline"></ion-icon>
     </ion-fab-button>

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { AuthService } from '../services/auth.service';
 import { Router } from '@angular/router';
 
@@ -9,50 +8,13 @@ import { Router } from '@angular/router';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
-  // Atributos
-  id: bigint | undefined;
-  titulo: any;
-  fecha: any;
-  valoracion: any;
-
-  constructor(
-    // Constructor
-    private httpClient: HttpClient,
-    private authService: AuthService,
-    private router: Router
-  ) {}
+  constructor(private authService: AuthService, private router: Router) {}
 
   ngOnInit() {}
 
+  //Función cerrar sesión
   async logout() {
     await this.authService.logout();
     this.router.navigateByUrl('/', { replaceUrl: true });
-  }
-  // Insert
-  public add() {
-    let data = {
-      id: this.id,
-      titulo: this.titulo,
-      fecha: this.fecha,
-      valoracion: this.valoracion,
-    };
-    let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    this.httpClient
-      .post('http://localhost:9000/api/add', data, { headers })
-      .subscribe((res) => console.log(res));
-  }
-
-  // Update
-  update() {
-    let data = {
-      id: this.id,
-      titulo: this.titulo,
-      fecha: this.fecha,
-      valoracion: this.valoracion,
-    };
-    let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    this.httpClient
-      .put('http://localhost:9000/api/update/' + this.id, data, { headers })
-      .subscribe((res) => console.log(res));
   }
 }

@@ -6,20 +6,22 @@
 <!-- Comienzo del content -->
 <ion-content delegate-handle="mainScroll" [fullscreen]="true">
   <!-- Categorías  -->
-  <ion-label id="vfHomePodcast">PODCAST</ion-label>
-
+  <ion-label id="vfHomePodcast">PODCASTS FAMOSOS</ion-label>
   <app-home-category-slide></app-home-category-slide>
   <br />
   <!-- Recomendados  -->
   <ion-label id="vfHomeCreators">CREADORES RECOMENDADOS</ion-label>
   <app-home-profiles-slide></app-home-profiles-slide>
 
-  <!-- Bienvenida -->
+  <!-- Guía de uso -->
   <app-home-my-space> </app-home-my-space>
 </ion-content>
 
 <!-- Footer -->
 <ion-footer id="vfFooter" class="ion-no-border" collapse="fade">
+  <!-- Crear/ver podcast -->
   <app-home-fabbutton></app-home-fabbutton>
+
+  <!-- Footer -->
   <app-home-footer></app-home-footer>
 </ion-footer>

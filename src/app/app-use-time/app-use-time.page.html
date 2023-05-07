@@ -3,19 +3,19 @@
   <!-- Toolbar -->
   <ion-toolbar id="vfToolbar">
     <!-- Título -->
-    <ion-title id="vfTitulo"> Tiempo de uso </ion-title>
+    <ion-title id="vfTitulo"> Aplicaciones más usadas </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
-  <!-- Info -->
+  <!-- Info (más usadas) -->
   <app-use-time-info></app-use-time-info>
 
-  <!-- Gráfico -->
-  <div><app-use-time-videos></app-use-time-videos></div>
+  <!-- Enlaces -->
+  <app-use-time-videos></app-use-time-videos>
 
-  <!-- Saber más -->
+  <!-- Saber más (más usadas) -->
   <app-use-time-modal></app-use-time-modal>
 </ion-content>
 

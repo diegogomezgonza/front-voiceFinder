@@ -12,6 +12,7 @@ export class HomeUserComponent implements OnInit {
 
   ngOnInit() {}
 
+  //Función cerrar sesión
   async logout() {
     await this.authService.logout();
     this.router.navigateByUrl('/', { replaceUrl: true });

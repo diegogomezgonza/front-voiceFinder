@@ -16,6 +16,7 @@ export class ActionFormComponent implements OnInit {
     private toastController: ToastController
   ) {
     this.formulario = new FormGroup({
+      //FormControl para elementos del formulario
       name: new FormControl(),
       author: new FormControl(),
       theme: new FormControl(),
@@ -24,12 +25,14 @@ export class ActionFormComponent implements OnInit {
 
   ngOnInit() {}
 
+  //Función para enviar values al enviar
   async onSubmit() {
     console.log(this.formulario.value);
     const response = await this.dataService.addPodcast(this.formulario.value);
     console.log(response);
   }
 
+  //Atributo para toast
   async presentToast(position: 'top' | 'middle' | 'bottom') {
     const toast = await this.toastController.create({
       message: 'Podcast creado',

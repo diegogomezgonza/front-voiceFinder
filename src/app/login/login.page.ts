@@ -10,37 +10,42 @@ import { AuthService } from '../services/auth.service';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-  credentials: FormGroup;
+  //Variable para almacenar credenciales
+  cred: FormGroup;
 
   constructor(
-    private fb: FormBuilder,
+    //Atributos para login
     private loadingController: LoadingController,
     private alertController: AlertController,
+    private fb: FormBuilder,
     private authService: AuthService,
     private router: Router
   ) {}
 
-  // Easy access for form fields
+  //Almacenar email
   get email() {
-    return this.credentials.get('email');
+    return this.cred.get('email');
   }
 
+  //Almacenar contraseña
   get password() {
-    return this.credentials.get('password');
+    return this.cred.get('password');
   }
 
   ngOnInit() {
-    this.credentials = this.fb.group({
+    //FormGroup para email y contraseña
+    this.cred = this.fb.group({
       email: ['', [Validators.required, Validators.email]],
       password: ['', [Validators.required, Validators.minLength(6)]],
     });
   }
 
+  //Función para registrar usuario
   async register() {
     const loading = await this.loadingController.create();
     await loading.present();
 
-    const user = await this.authService.register(this.credentials.value);
+    const user = await this.authService.register(this.cred.value);
     await loading.dismiss();
 
     if (user) {
@@ -50,11 +55,12 @@ export class LoginPage implements OnInit {
     }
   }
 
+  //Función para iniciar sesión
   async login() {
     const loading = await this.loadingController.create();
     await loading.present();
 
-    const user = await this.authService.login(this.credentials.value);
+    const user = await this.authService.login(this.cred.value);
     await loading.dismiss();
 
     if (user) {
@@ -64,6 +70,7 @@ export class LoginPage implements OnInit {
     }
   }
 
+  //Función para mostrar alerts
   async showAlert(header, message) {
     const alert = await this.alertController.create({
       header,

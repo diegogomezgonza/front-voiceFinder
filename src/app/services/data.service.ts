@@ -16,11 +16,13 @@ import { Observable } from 'rxjs';
 export class DataService {
   constructor(private firestore: Firestore) {}
 
+  //Servicio para crear podcast
   addPodcast(podcast: Podcast) {
     const podcastRef = collection(this.firestore, 'podcast');
     return addDoc(podcastRef, podcast);
   }
 
+  //Servicio para almacenar podcast
   getPodcast(): Observable<Podcast[]> {
     const podcastRef = collection(this.firestore, 'podcast');
     return collectionData(podcastRef, { idField: 'id' }) as Observable<
@@ -28,6 +30,7 @@ export class DataService {
     >;
   }
 
+  //Servicio para eliminar podcast
   deletePodcast(pod: Podcast) {
     const podcastRef = doc(this.firestore, `podcast/${pod.id}`);
     return deleteDoc(podcastRef);

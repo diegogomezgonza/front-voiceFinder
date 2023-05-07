@@ -11,10 +11,12 @@ export class HomeFabbuttonComponent implements OnInit {
 
   ngOnInit() {}
 
+  //Ir a crear podcast
   goAction() {
     this.router.navigate(['podcast-action']);
   }
 
+  //Ir a ver podcast
   goWatch() {
     this.router.navigate(['app-my-podcast']);
   }

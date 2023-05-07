@@ -11,14 +11,15 @@ export class HomeCategorySlideComponent implements OnInit {
 
   ngOnInit() {}
 
+  //Ir a entrevistas
   goInterview() {
     this.router.navigate(['app-cat-interview']);
   }
-
+  //Ir a freak
   goFreak() {
     this.router.navigate(['app-cat-freak']);
   }
-
+  //Ir a random
   goRandom() {
     this.router.navigate(['app-cat-random']);
   }

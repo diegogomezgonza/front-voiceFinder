@@ -11,6 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
 
 import { HttpClientModule } from '@angular/common/http';
+
+//Imports para firebase
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase, getDatabase } from '@angular/fire/database';
@@ -27,6 +29,7 @@ import { provideAuth, getAuth } from '@angular/fire/auth';
     ComponentsModule,
     HttpClientModule,
     ReactiveFormsModule,
+    //Imports para firebase
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),

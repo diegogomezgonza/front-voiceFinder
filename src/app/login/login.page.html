@@ -1,12 +1,20 @@
+<!-- Header -->
 <ion-header class="ion-no-border">
+  <!-- Toolbar -->
   <ion-toolbar id="vfToolbar" class="ion-no-border">
+    <!-- Título -->
     <ion-title id="vfTitulo">Voice Finder</ion-title>
   </ion-toolbar>
 </ion-header>
 
+<!-- Comienzo del content -->
 <ion-content class="ion-padding">
+  <!--Logo vf -->
   <img src="../../assets/pics/login/logoVf.png" id="vfLogo" />
-  <form (ngSubmit)="login()" [formGroup]="credentials">
+
+  <!-- Formulario -->
+  <form (ngSubmit)="login()" [formGroup]="cred">
+    <!-- Campo email -->
     <ion-item class="ion-margin-bottom">
       <ion-input
         id="vfEmail"
@@ -17,9 +25,11 @@
       <ion-note
         slot="error"
         *ngIf="(email.dirty || email.touched) && email.errors"
-        >Email invalido</ion-note
+        >Email incorrecto</ion-note
       >
     </ion-item>
+
+    <!-- Campo contraseña -->
     <ion-item class="ion-margin-bottom">
       <ion-input
         id="vfPass"
@@ -33,7 +43,7 @@
         >La contraseña debe tener más de 6 carácteres</ion-note
       >
     </ion-item>
-
+    <!-- Botón login -->
     <ion-button
       shape="round"
       size="large"
@@ -43,6 +53,7 @@
       expand="block"
       >Iniciar sesión</ion-button
     >
+    <!-- Botón registrarse -->
     <ion-button
       id="vfRegister"
       shape="round"

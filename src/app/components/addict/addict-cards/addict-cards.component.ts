@@ -16,12 +16,12 @@ export class AddictCardsComponent implements OnInit {
     this.router.navigate(['app-time']);
   }
 
-  // Función ir a gráfico de tiempo de uso
+  // Función ir a más usadas
   goUseTime() {
     this.router.navigate(['app-use-time']);
   }
 
-  // Función ir a gráfico mas usadas
+  // Función ir a redes sociales
   goMostUsed() {
     this.router.navigate(['app-most-used']);
   }

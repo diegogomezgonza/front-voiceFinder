@@ -1,4 +1,6 @@
+<!-- Formulario -->
 <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+  <!-- Campo título -->
   <label class="form-label" id="vfFormLbHd">Título</label>
   <div class="mb-3">
     <input
@@ -10,6 +12,7 @@
       id="vfFormInput"
     />
   </div>
+  <!-- Campo autor -->
   <label class="form-label" id="vfFormLb">Autor</label>
   <div class="mb-3">
     <input
@@ -19,6 +22,7 @@
       id="vfFormInput"
     />
   </div>
+  <!-- Campo temática -->
   <label class="form-label" id="vfFormLb">Temática</label>
   <div class="mb-3">
     <input
@@ -28,12 +32,12 @@
       id="vfFormInput"
     />
   </div>
-
+  <!-- Botón enviar -->
   <ion-button
     type="submit"
     value="Enviar"
     shape="round"
-    (click)="presentToast('bottom')"
+    (click)="presentToast('top')"
     color="success"
     id="vfSubmit"
     >CREAR</ion-button
