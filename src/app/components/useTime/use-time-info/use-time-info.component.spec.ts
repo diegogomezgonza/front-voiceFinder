@@ -9,8 +9,8 @@ describe('UseTimeInfoComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ UseTimeInfoComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [UseTimeInfoComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(UseTimeInfoComponent);

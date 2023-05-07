@@ -7,8 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./home-footer.component.scss'],
 })
 export class HomeFooterComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

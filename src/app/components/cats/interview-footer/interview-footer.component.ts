@@ -6,14 +6,13 @@ import { Router } from '@angular/router';
   templateUrl: './interview-footer.component.html',
   styleUrls: ['./interview-footer.component.scss'],
 })
-export class InterviewFooterComponent  implements OnInit {
-
-  constructor(private router: Router) { }
+export class InterviewFooterComponent implements OnInit {
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 
-   // Función ir a home
-   goHome() {
+  // Función ir a home
+  goHome() {
     this.router.navigate(['home']);
   }
 }

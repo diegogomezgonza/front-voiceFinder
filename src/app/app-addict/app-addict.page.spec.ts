@@ -9,8 +9,8 @@ describe('AppAddictPage', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppAddictPage ],
-      imports: [IonicModule.forRoot()]
+      declarations: [AppAddictPage],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(AppAddictPage);

@@ -6,9 +6,8 @@ import { Router } from '@angular/router';
   templateUrl: './freak-footer.component.html',
   styleUrls: ['./freak-footer.component.scss'],
 })
-export class FreakFooterComponent  implements OnInit {
-
-  constructor(private router: Router) { }
+export class FreakFooterComponent implements OnInit {
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

@@ -9,8 +9,8 @@ describe('UseTimeVideosComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ UseTimeVideosComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [UseTimeVideosComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(UseTimeVideosComponent);

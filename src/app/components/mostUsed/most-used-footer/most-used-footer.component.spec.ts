@@ -9,8 +9,8 @@ describe('MostUsedFooterComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ MostUsedFooterComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [MostUsedFooterComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(MostUsedFooterComponent);

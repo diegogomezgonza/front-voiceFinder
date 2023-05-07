@@ -8,7 +8,7 @@ import { AppAddictPageRoutingModule } from './app-addict-routing.module';
 
 import { AppAddictPage } from './app-addict.page';
 
-import {ComponentsModule} from "../components/components.module";
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   imports: [
@@ -16,8 +16,8 @@ import {ComponentsModule} from "../components/components.module";
     FormsModule,
     IonicModule,
     ComponentsModule,
-    AppAddictPageRoutingModule
+    AppAddictPageRoutingModule,
   ],
-  declarations: [AppAddictPage]
+  declarations: [AppAddictPage],
 })
 export class AppAddictPageModule {}

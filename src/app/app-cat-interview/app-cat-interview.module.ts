@@ -15,8 +15,8 @@ import { ComponentsModule } from '../components/components.module';
     FormsModule,
     IonicModule,
     AppCatInterviewPageRoutingModule,
-    ComponentsModule
+    ComponentsModule,
   ],
-  declarations: [AppCatInterviewPage]
+  declarations: [AppCatInterviewPage],
 })
 export class AppCatInterviewPageModule {}

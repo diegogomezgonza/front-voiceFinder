@@ -9,8 +9,8 @@ describe('MostUsedModalComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ MostUsedModalComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [MostUsedModalComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(MostUsedModalComponent);

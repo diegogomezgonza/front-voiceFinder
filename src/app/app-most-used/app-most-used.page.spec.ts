@@ -9,8 +9,8 @@ describe('AppMostUsedPage', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppMostUsedPage ],
-      imports: [IonicModule.forRoot()]
+      declarations: [AppMostUsedPage],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(AppMostUsedPage);

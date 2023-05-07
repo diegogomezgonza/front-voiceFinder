@@ -7,8 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./home-category-slide.component.scss'],
 })
 export class HomeCategorySlideComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

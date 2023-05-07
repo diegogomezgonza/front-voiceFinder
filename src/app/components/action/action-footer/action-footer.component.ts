@@ -6,9 +6,8 @@ import { Router } from '@angular/router';
   templateUrl: './action-footer.component.html',
   styleUrls: ['./action-footer.component.scss'],
 })
-export class ActionFooterComponent  implements OnInit {
-
-  constructor(private router: Router) { }
+export class ActionFooterComponent implements OnInit {
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

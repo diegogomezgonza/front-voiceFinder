@@ -19,7 +19,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     IonicModule,
     AppMyPodcastPageRoutingModule,
     ComponentsModule,
-    ScrollingModule
+    ScrollingModule,
   ],
   declarations: [AppMyPodcastPage],
 })

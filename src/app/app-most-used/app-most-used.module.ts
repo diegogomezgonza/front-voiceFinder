@@ -8,7 +8,7 @@ import { AppMostUsedPageRoutingModule } from './app-most-used-routing.module';
 
 import { AppMostUsedPage } from './app-most-used.page';
 
-import {ComponentsModule} from "../components/components.module";
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   imports: [
@@ -16,8 +16,8 @@ import {ComponentsModule} from "../components/components.module";
     FormsModule,
     IonicModule,
     ComponentsModule,
-    AppMostUsedPageRoutingModule
+    AppMostUsedPageRoutingModule,
   ],
-  declarations: [AppMostUsedPage]
+  declarations: [AppMostUsedPage],
 })
 export class AppMostUsedPageModule {}

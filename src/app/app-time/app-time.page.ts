@@ -6,10 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-time.page.scss'],
 })
 export class AppTimePage implements OnInit {
-
   constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

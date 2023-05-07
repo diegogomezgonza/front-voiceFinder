@@ -15,8 +15,8 @@ import { ComponentsModule } from '../components/components.module';
     FormsModule,
     IonicModule,
     PodcastActionPageRoutingModule,
-    ComponentsModule
+    ComponentsModule,
   ],
-  declarations: [PodcastActionPage]
+  declarations: [PodcastActionPage],
 })
 export class PodcastActionPageModule {}

@@ -7,8 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./addict-footer.component.scss'],
 })
 export class AddictFooterComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

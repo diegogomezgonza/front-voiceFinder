@@ -7,8 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./use-time-footer.component.scss'],
 })
 export class UseTimeFooterComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

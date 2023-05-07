@@ -89,11 +89,14 @@ const routes: Routes = [
       import('./app-cat-random/app-cat-random.module').then(
         (m) => m.AppCatRandomPageModule
       ),
-  },  {
-    path: 'app-my-podcast',
-    loadChildren: () => import('./app-my-podcast/app-my-podcast.module').then( m => m.AppMyPodcastPageModule)
   },
-
+  {
+    path: 'app-my-podcast',
+    loadChildren: () =>
+      import('./app-my-podcast/app-my-podcast.module').then(
+        (m) => m.AppMyPodcastPageModule
+      ),
+  },
 ];
 
 @NgModule({

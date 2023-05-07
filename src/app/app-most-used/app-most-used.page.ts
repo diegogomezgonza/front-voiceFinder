@@ -6,11 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-most-used.page.scss'],
 })
 export class AppMostUsedPage implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-
+  ngOnInit() {}
 }

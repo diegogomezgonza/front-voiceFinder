@@ -9,8 +9,8 @@ describe('AppCatFreakPage', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppCatFreakPage ],
-      imports: [IonicModule.forRoot()]
+      declarations: [AppCatFreakPage],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(AppCatFreakPage);

@@ -5,7 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { AppTimePageRoutingModule } from './app-time-routing.module';
 import { AppTimePage } from './app-time.page';
 import { NgChartsModule } from 'ng2-charts';
-import {ComponentsModule} from "../components/components.module";
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   imports: [
@@ -14,8 +14,8 @@ import {ComponentsModule} from "../components/components.module";
     IonicModule,
     NgChartsModule,
     ComponentsModule,
-    AppTimePageRoutingModule
+    AppTimePageRoutingModule,
   ],
-  declarations: [AppTimePage]
+  declarations: [AppTimePage],
 })
 export class AppTimePageModule {}

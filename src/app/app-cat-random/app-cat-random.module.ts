@@ -15,8 +15,8 @@ import { ComponentsModule } from '../components/components.module';
     FormsModule,
     IonicModule,
     AppCatRandomPageRoutingModule,
-    ComponentsModule
+    ComponentsModule,
   ],
-  declarations: [AppCatRandomPage]
+  declarations: [AppCatRandomPage],
 })
 export class AppCatRandomPageModule {}

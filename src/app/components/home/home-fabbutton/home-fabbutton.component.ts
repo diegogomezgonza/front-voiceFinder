@@ -6,9 +6,8 @@ import { Router } from '@angular/router';
   templateUrl: './home-fabbutton.component.html',
   styleUrls: ['./home-fabbutton.component.scss'],
 })
-export class HomeFabbuttonComponent  implements OnInit {
-
-  constructor(private router: Router) { }
+export class HomeFabbuttonComponent implements OnInit {
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

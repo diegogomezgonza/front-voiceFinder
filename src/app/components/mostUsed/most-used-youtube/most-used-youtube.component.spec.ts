@@ -9,8 +9,8 @@ describe('MostUsedYoutubeComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ MostUsedYoutubeComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [MostUsedYoutubeComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(MostUsedYoutubeComponent);

@@ -9,8 +9,8 @@ describe('PodcastActionPage', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ PodcastActionPage ],
-      imports: [IonicModule.forRoot()]
+      declarations: [PodcastActionPage],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(PodcastActionPage);

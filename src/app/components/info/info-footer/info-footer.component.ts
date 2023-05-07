@@ -7,12 +7,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./info-footer.component.scss'],
 })
 export class InfoFooterComponent implements OnInit {
-
   public currentDate: string;
 
-  constructor(private router: Router) { 
-
-    this.currentDate = ( Date()).toString();
+  constructor(private router: Router) {
+    this.currentDate = Date().toString();
   }
 
   ngOnInit() {}
@@ -21,5 +19,4 @@ export class InfoFooterComponent implements OnInit {
   goHome() {
     this.router.navigate(['home']);
   }
-  
 }

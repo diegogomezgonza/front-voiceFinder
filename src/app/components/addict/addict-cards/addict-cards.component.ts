@@ -7,8 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./addict-cards.component.scss'],
 })
 export class AddictCardsComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

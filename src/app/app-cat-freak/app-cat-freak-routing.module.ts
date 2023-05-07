@@ -6,8 +6,8 @@ import { AppCatFreakPage } from './app-cat-freak.page';
 const routes: Routes = [
   {
     path: '',
-    component: AppCatFreakPage
-  }
+    component: AppCatFreakPage,
+  },
 ];
 
 @NgModule({

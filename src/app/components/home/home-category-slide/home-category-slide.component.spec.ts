@@ -9,8 +9,8 @@ describe('HomeCategorySlideComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeCategorySlideComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [HomeCategorySlideComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(HomeCategorySlideComponent);

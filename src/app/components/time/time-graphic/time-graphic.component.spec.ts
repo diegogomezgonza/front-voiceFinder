@@ -9,8 +9,8 @@ describe('TimeGraphicComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ TimeGraphicComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [TimeGraphicComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(TimeGraphicComponent);

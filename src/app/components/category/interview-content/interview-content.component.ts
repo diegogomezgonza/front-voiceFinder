@@ -5,10 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './interview-content.component.html',
   styleUrls: ['./interview-content.component.scss'],
 })
-export class InterviewContentComponent  implements OnInit {
-
-  constructor() { }
+export class InterviewContentComponent implements OnInit {
+  constructor() {}
 
   ngOnInit() {}
-
 }

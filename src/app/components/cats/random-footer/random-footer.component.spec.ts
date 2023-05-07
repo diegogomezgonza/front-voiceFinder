@@ -9,8 +9,8 @@ describe('RandomFooterComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ RandomFooterComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [RandomFooterComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(RandomFooterComponent);

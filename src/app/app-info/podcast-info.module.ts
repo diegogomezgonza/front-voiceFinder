@@ -8,7 +8,7 @@ import { PodcastInfoPageRoutingModule } from './podcast-info-routing.module';
 
 import { PodcastInfoPage } from './podcast-info.page';
 
-import {ComponentsModule} from "../components/components.module";
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   imports: [
@@ -16,8 +16,8 @@ import {ComponentsModule} from "../components/components.module";
     FormsModule,
     IonicModule,
     ComponentsModule,
-    PodcastInfoPageRoutingModule
+    PodcastInfoPageRoutingModule,
   ],
-  declarations: [PodcastInfoPage]
+  declarations: [PodcastInfoPage],
 })
 export class PodcastInfoPageModule {}

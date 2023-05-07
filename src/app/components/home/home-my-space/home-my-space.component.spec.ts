@@ -9,8 +9,8 @@ describe('HomeMySpaceComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeMySpaceComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [HomeMySpaceComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(HomeMySpaceComponent);

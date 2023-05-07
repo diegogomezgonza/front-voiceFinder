@@ -7,15 +7,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./podcast-action.page.scss'],
 })
 export class PodcastActionPage implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor(private router: Router) { }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   // Función ir a home
   goHome() {
     this.router.navigate(['home']);
   }
-
 }

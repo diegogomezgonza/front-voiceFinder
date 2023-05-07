@@ -9,8 +9,8 @@ describe('FreakContentComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FreakContentComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [FreakContentComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(FreakContentComponent);

@@ -9,8 +9,8 @@ describe('RandomContentComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ RandomContentComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [RandomContentComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(RandomContentComponent);

@@ -6,8 +6,8 @@ import { AppAddictPage } from './app-addict.page';
 const routes: Routes = [
   {
     path: '',
-    component: AppAddictPage
-  }
+    component: AppAddictPage,
+  },
 ];
 
 @NgModule({

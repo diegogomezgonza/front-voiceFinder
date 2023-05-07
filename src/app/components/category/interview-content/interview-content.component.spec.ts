@@ -9,8 +9,8 @@ describe('InterviewContentComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ InterviewContentComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [InterviewContentComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(InterviewContentComponent);

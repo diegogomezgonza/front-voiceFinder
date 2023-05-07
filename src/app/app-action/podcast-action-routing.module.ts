@@ -6,8 +6,8 @@ import { PodcastActionPage } from './podcast-action.page';
 const routes: Routes = [
   {
     path: '',
-    component: PodcastActionPage
-  }
+    component: PodcastActionPage,
+  },
 ];
 
 @NgModule({

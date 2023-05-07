@@ -7,8 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./most-used-footer.component.scss'],
 })
 export class MostUsedFooterComponent implements OnInit {
-
-  constructor(private router: Router) { }
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

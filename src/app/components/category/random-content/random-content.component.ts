@@ -5,10 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './random-content.component.html',
   styleUrls: ['./random-content.component.scss'],
 })
-export class RandomContentComponent  implements OnInit {
-
-  constructor() { }
+export class RandomContentComponent implements OnInit {
+  constructor() {}
 
   ngOnInit() {}
-
 }

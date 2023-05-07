@@ -9,8 +9,8 @@ describe('HomeFabbuttonComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ HomeFabbuttonComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [HomeFabbuttonComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(HomeFabbuttonComponent);

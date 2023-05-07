@@ -70,9 +70,15 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     ActionPodcastsComponent,
     FreakContentComponent,
     InterviewContentComponent,
-    RandomContentComponent
+    RandomContentComponent,
   ],
-  imports: [CommonModule, NgChartsModule, IonicModule, ReactiveFormsModule, ScrollingModule],
+  imports: [
+    CommonModule,
+    NgChartsModule,
+    IonicModule,
+    ReactiveFormsModule,
+    ScrollingModule,
+  ],
   exports: [
     HomeCategorySlideComponent,
     HomeMySpaceComponent,
@@ -105,7 +111,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     ActionPodcastsComponent,
     FreakContentComponent,
     InterviewContentComponent,
-    RandomContentComponent
+    RandomContentComponent,
   ],
 })
 export class ComponentsModule {}

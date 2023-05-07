@@ -6,8 +6,8 @@ import { AppMyPodcastPage } from './app-my-podcast.page';
 const routes: Routes = [
   {
     path: '',
-    component: AppMyPodcastPage
-  }
+    component: AppMyPodcastPage,
+  },
 ];
 
 @NgModule({

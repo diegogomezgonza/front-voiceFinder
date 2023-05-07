@@ -39,5 +39,4 @@ export class ActionFormComponent implements OnInit {
 
     await toast.present();
   }
-
 }

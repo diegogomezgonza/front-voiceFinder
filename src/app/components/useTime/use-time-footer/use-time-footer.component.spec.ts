@@ -9,8 +9,8 @@ describe('UseTimeFooterComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ UseTimeFooterComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [UseTimeFooterComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(UseTimeFooterComponent);

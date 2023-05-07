@@ -9,8 +9,8 @@ describe('ActionFormComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ActionFormComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [ActionFormComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(ActionFormComponent);

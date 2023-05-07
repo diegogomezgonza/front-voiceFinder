@@ -6,8 +6,8 @@ import { AppCatRandomPage } from './app-cat-random.page';
 const routes: Routes = [
   {
     path: '',
-    component: AppCatRandomPage
-  }
+    component: AppCatRandomPage,
+  },
 ];
 
 @NgModule({

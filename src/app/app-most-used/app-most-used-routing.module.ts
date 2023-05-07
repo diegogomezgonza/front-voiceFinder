@@ -6,8 +6,8 @@ import { AppMostUsedPage } from './app-most-used.page';
 const routes: Routes = [
   {
     path: '',
-    component: AppMostUsedPage
-  }
+    component: AppMostUsedPage,
+  },
 ];
 
 @NgModule({

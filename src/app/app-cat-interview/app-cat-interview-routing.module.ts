@@ -6,8 +6,8 @@ import { AppCatInterviewPage } from './app-cat-interview.page';
 const routes: Routes = [
   {
     path: '',
-    component: AppCatInterviewPage
-  }
+    component: AppCatInterviewPage,
+  },
 ];
 
 @NgModule({

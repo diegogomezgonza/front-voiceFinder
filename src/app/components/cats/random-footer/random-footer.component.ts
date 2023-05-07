@@ -6,9 +6,8 @@ import { Router } from '@angular/router';
   templateUrl: './random-footer.component.html',
   styleUrls: ['./random-footer.component.scss'],
 })
-export class RandomFooterComponent  implements OnInit {
-
-  constructor(private router: Router) { }
+export class RandomFooterComponent implements OnInit {
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 

@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './use-time-info.component.html',
   styleUrls: ['./use-time-info.component.scss'],
 })
-export class UseTimeInfoComponent  implements OnInit {
-
-
-  constructor() { }
+export class UseTimeInfoComponent implements OnInit {
+  constructor() {}
 
   ngOnInit() {}
-
 }

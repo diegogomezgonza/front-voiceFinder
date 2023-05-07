@@ -7,11 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./app-profile.page.scss'],
 })
 export class AppProfilePage implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor(private router: Router) { }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   // Función ir a home
   goHome() {
