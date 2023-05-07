@@ -3,16 +3,17 @@
   <!-- Toolbar -->
   <ion-toolbar id="vfToolbar">
     <!-- Título -->
-    <ion-title id="vfTitulo"> User </ion-title>
+    <ion-title id="vfTitulo"> Perfil de usuario </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
+  <img src="../../assets/pics/login/logoVf.png" id="vfLogo" />
   <app-home-user></app-home-user>
 </ion-content>
 
 <!-- Footer -->
-<ion-footer collapse="fade" id="vfFooter">
+<ion-footer collapse="fade" id="vfFooter" class="ion-no-border">
   <app-profile-footer></app-profile-footer>
 </ion-footer>

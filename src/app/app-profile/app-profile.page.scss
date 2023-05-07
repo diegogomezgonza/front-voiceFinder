@@ -2,15 +2,6 @@ ion-content {
   --ion-background-color: #213061;
 }
 
-#btnHome {
-  --box-shadow: none;
-}
-
-ion-item {
-  font-size: 20px;
-  font-weight: bold;
-}
-
 #vfTitulo {
   font-size: 20px;
   text-align: center;
@@ -20,7 +11,11 @@ ion-item {
 #vfToolbar {
   --background: #4a6cdf;
 }
-
-#vfForm {
-  background-color: transparent !important;
+#vfLogo {
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
