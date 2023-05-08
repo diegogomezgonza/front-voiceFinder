@@ -3,6 +3,7 @@
 
 # Contenido futuro
 - Probar añadir un campo más a podcast (plataforma disponible)
+- Pasar de aplicación individual a red social
 
 # Extra
 - Repasar login (saber como funciona)
