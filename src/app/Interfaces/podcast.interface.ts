@@ -4,4 +4,5 @@ export default interface Podcast {
   name: string;
   author: string;
   theme: string;
+  platform: string;
 }
