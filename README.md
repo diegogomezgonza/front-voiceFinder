@@ -1,15 +1,8 @@
-# Categorias
-- Enlaces a las plataformas con iconos (spotify, youtube twitch, etc...)
+# TFG
 
-# Contenido futuro
-- Probar añadir un campo más a podcast (plataforma disponible)
-- Pasar de aplicación individual a red social
+Fecha de inicio:
+Última modificación:
 
-# Extra
-- Repasar login (saber como funciona)
-- https://devdactic.com/ionic-firebase-auth-upload
-- Conseguir ejecutar voice finder en url personalizada
-- Comentar y estructurar código
 
 
 
