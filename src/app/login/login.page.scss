@@ -26,6 +26,14 @@ ion-item {
   width: 25%;
 }
 
+#vfLogoDesktop {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%; /* Tamaño diferente para escritorio */
+}
+
 #vfTitulo {
   margin-top: 20px;
   justify-content: center;
@@ -35,12 +43,42 @@ ion-item {
   font-weight: bold;
 }
 
-#vfLogin {
+#vfLogin, #vfRegister {
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-#vfRegister {
-  font-weight: bold;
+.mobile-content {
+  display: block;
+}
+
+.desktop-content {
+  display: none;
+}
+
+/* Media query para pantallas grandes */
+@media (min-width: 769px) {
+  .mobile-content {
+    display: none;
+  }
+
+  .desktop-content {
+    display: block;
+  }
+
+  #vfLoginDesktop, #vfRegisterDesktop {
+    display: inline-block;
+    width: auto;
+    margin: 20px auto; /* Centrar horizontalmente */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  ion-item {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    --inner-border-width: 0px;
+  }
 }

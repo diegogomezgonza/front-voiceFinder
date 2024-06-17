@@ -7,63 +7,119 @@
   </ion-toolbar>
 </ion-header>
 
-<!-- Comienzo del content -->
+<!-- Contenido -->
 <ion-content class="ion-padding">
-  <!--Logo vf -->
-  <img src="../../assets/pics/login/logoVf.png" id="vfLogo" />
+  <!-- Contenido móvil -->
+  <div class="mobile-content">
+    <!--Logo vf -->
+    <img src="../../assets/pics/login/logoVf.png" id="vfLogo" />
 
-  <!-- Formulario -->
-  <form (ngSubmit)="login()" [formGroup]="cred">
-    <!-- Campo email -->
-    <ion-item class="ion-margin-bottom">
-      <ion-input
-        id="vfEmail"
-        type="email"
-        placeholder="Email"
-        formControlName="email"
-      ></ion-input>
-      <ion-note
-        slot="error"
-        *ngIf="(email.dirty || email.touched) && email.errors"
-        >Email incorrecto</ion-note
-      >
-    </ion-item>
+    <!-- Formulario -->
+    <form (ngSubmit)="login()" [formGroup]="cred">
+      <!-- Campo email -->
+      <ion-item class="ion-margin-bottom">
+        <ion-input
+          id="vfEmail"
+          type="email"
+          placeholder="Email"
+          formControlName="email"
+        ></ion-input>
+        <ion-note
+          slot="error"
+          *ngIf="(email.dirty || email.touched) && email.errors"
+          >Email incorrecto</ion-note>
+      </ion-item>
 
-    <!-- Campo contraseña -->
-    <ion-item class="ion-margin-bottom">
-      <ion-input
-        id="vfPass"
-        type="password"
-        placeholder="Contraseña"
-        formControlName="password"
-      ></ion-input>
-      <ion-note
-        slot="error"
-        *ngIf="(password.dirty || password.touched) && password.errors"
-        >La contraseña debe tener más de 6 carácteres</ion-note
-      >
-    </ion-item>
-    <!-- Botón login -->
-    <ion-button
-      shape="round"
-      size="large"
-      id="vfLogin"
-      color="primary"
-      type="submit"
-      expand="block"
-      >Iniciar sesión</ion-button
-    >
-    <!-- Botón registrarse -->
-    <ion-button
-      id="vfRegister"
-      shape="round"
-      size="large"
-      type="button"
-      expand="block"
-      color="dark"
-      fill="outline"
-      (click)="register()"
-      >Registrarse</ion-button
-    >
-  </form>
+      <!-- Campo contraseña -->
+      <ion-item class="ion-margin-bottom">
+        <ion-input
+          id="vfPass"
+          type="password"
+          placeholder="Contraseña"
+          formControlName="password"
+        ></ion-input>
+        <ion-note
+          slot="error"
+          *ngIf="(password.dirty || password.touched) && password.errors"
+          >La contraseña debe tener más de 6 carácteres</ion-note>
+      </ion-item>
+      <!-- Botón login -->
+      <ion-button
+        shape="round"
+        size="large"
+        id="vfLogin"
+        color="primary"
+        type="submit"
+        expand="block"
+        >Iniciar sesión</ion-button>
+      <!-- Botón registrarse -->
+      <ion-button
+        id="vfRegister"
+        shape="round"
+        size="large"
+        type="button"
+        expand="block"
+        color="dark"
+        fill="outline"
+        (click)="register()"
+        >Registrarse</ion-button>
+    </form>
+  </div>
+
+  <!-- Contenido escritorio -->
+  <div class="desktop-content">
+    <!--Logo vf -->
+    <img src="../../assets/pics/login/logoVf.png" id="vfLogoDesktop" />
+
+    <!-- Formulario -->
+    <form (ngSubmit)="login()" [formGroup]="cred">
+      <!-- Campo email -->
+      <ion-item class="ion-margin-bottom">
+        <ion-input
+          id="vfEmailDesktop"
+          type="email"
+          placeholder="Email"
+          formControlName="email"
+        ></ion-input>
+        <ion-note
+          slot="error"
+          *ngIf="(email.dirty || email.touched) && email.errors"
+          >Email incorrecto</ion-note>
+      </ion-item>
+
+      <!-- Campo contraseña -->
+      <ion-item class="ion-margin-bottom">
+        <ion-input
+          id="vfPassDesktop"
+          type="password"
+          placeholder="Contraseña"
+          formControlName="password"
+        ></ion-input>
+        <ion-note
+          slot="error"
+          *ngIf="(password.dirty || password.touched) && password.errors"
+          >La contraseña debe tener más de 6 carácteres</ion-note>
+      </ion-item>
+      <!-- Botón login -->
+      <ion-item>
+        <ion-button
+        shape="round"
+        size="large"
+        id="vfLoginDesktop"
+        color="primary"
+        type="submit"
+        >Iniciar sesión</ion-button>
+      <!-- Botón registrarse -->
+      <ion-button
+        id="vfRegisterDesktop"
+        shape="round"
+        size="large"
+        type="button"
+        color="dark"
+        fill="outline"
+        (click)="register()"
+        >Registrarse</ion-button>
+      </ion-item>
+    </form>
+  </div>
 </ion-content>
