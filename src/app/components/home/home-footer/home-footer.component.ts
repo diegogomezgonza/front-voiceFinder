@@ -20,4 +20,14 @@ export class HomeFooterComponent implements OnInit {
   goTime() {
     this.router.navigate(['app-addict']);
   }
+
+  //Ir a crear podcast
+  goAction() {
+    this.router.navigate(['podcast-action']);
+  }
+
+  //Ir a ver podcast
+  goWatch() {
+    this.router.navigate(['app-my-podcast']);
+  }
 }
