@@ -1,23 +1,17 @@
 <ion-toolbar id="vfToolbar">
   <!-- Botones -->
-  <div class="row" style="display: flex; justify-content: center">
-    <div class="col-md-9 col-md-offset-9 col-xs-12 text-right">
-      <div class="btn-group" role="group">
-        <ion-row>
-          <ion-col>
-            <!-- VOLVER A HOME-->
-            <ion-button
-              type="button"
-              (click)="goHome()"
-              color="dark"
-              shape="round"
-              size="large"
-            >
-              <ion-icon name="arrow-back-circle-outline"></ion-icon>
-            </ion-button>
-          </ion-col>
-        </ion-row>
-      </div>
+  <ion-toolbar id="vfToolbar">
+    <div class="d-flex justify-content-center">
+      <ion-button
+          type="button"
+          (click)="goHome()"
+          color="dark"
+          shape="round"
+          size="large"
+      >
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
     </div>
-  </div>
+  </ion-toolbar>
+
 </ion-toolbar>
