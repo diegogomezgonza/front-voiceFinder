@@ -3,12 +3,24 @@
   <!-- Toolbar -->
   <ion-toolbar id="vfToolbar">
     <!-- Título -->
-    <ion-title id="vfTitulo"> Perfil de usuario </ion-title>
+    <ion-title id="vfTitulo">Perfil de usuario</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <!-- Comienzo del content -->
 <ion-content [fullscreen]="true">
+  <div class="container mt-4 mb-3">
+    <div class="row justify-content-center">
+      <div class="col-md-2">
+        <div class="card bg-info">
+          <div class="card-body">
+            <p class="card-text text-white fw-bold text-center fs-4">{{ userEmail }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Botón logout -->
   <app-home-user></app-home-user>
 </ion-content>

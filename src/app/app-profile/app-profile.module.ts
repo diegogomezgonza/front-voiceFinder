@@ -9,6 +9,9 @@ import { AppProfilePageRoutingModule } from './app-profile-routing.module';
 import { AppProfilePage } from './app-profile.page';
 
 import { ComponentsModule } from '../components/components.module';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   imports: [
@@ -17,6 +20,8 @@ import { ComponentsModule } from '../components/components.module';
     IonicModule,
     ComponentsModule,
     AppProfilePageRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule
   ],
   declarations: [AppProfilePage],
 })
