@@ -35,7 +35,9 @@
     "bootstrap": "^5.3.3",
     "braces": "^3.0.3",
     "chart.js": "^4.2.1",
+    "express": "^4.19.2",
     "ionicons": "^6.0.3",
+    "ip": "^2.0.1",
     "jquery": "^3.7.1",
     "ng2-charts": "^4.1.1",
     "protobufjs": "^7.3.2",
@@ -45,6 +47,7 @@
     "tslib": "^2.3.0",
     "webpack": "^5.92.0",
     "webpack-dev-middleware": "^7.2.1",
+    "ws": "^8.17.1",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
