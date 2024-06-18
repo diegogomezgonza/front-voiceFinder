@@ -43,26 +43,17 @@
           *ngIf="(password.dirty || password.touched) && password.errors"
           >La contraseña debe tener más de 6 carácteres</ion-note>
       </ion-item>
-      <!-- Botón login -->
-      <ion-button
-        shape="round"
-        size="large"
-        id="vfLogin"
-        color="primary"
-        type="submit"
-        expand="block"
-        >Iniciar sesión</ion-button>
-      <!-- Botón registrarse -->
-      <ion-button
-        id="vfRegister"
-        shape="round"
-        size="large"
-        type="button"
-        expand="block"
-        color="dark"
-        fill="outline"
-        (click)="register()"
-        >Registrarse</ion-button>
+
+      <div class="container">
+        <!-- Botón login -->
+        <div class="row">
+          <button class="btn btn-success btn-lg fw-bold mt-4 mb-5" id="vfLogin" type="submit">Iniciar sesión</button>
+        </div>
+        <!-- Botón registrarse -->
+        <div class="row">
+          <button class="btn btn-primary btn-lg fw-bold" id="vfLogin" type="button" (click)="register()">Registrarse</button>
+        </div>
+      </div>
     </form>
   </div>
 
@@ -102,23 +93,17 @@
       </ion-item>
       <!-- Botón login -->
       <ion-item>
-        <ion-button
-        shape="round"
-        size="large"
+        <button
         id="vfLoginDesktop"
-        color="primary"
+        class="btn btn-success btn-lg fw-bold"
         type="submit"
-        >Iniciar sesión</ion-button>
+        >Iniciar sesión</button>
       <!-- Botón registrarse -->
-      <ion-button
+      <button
+        class="btn btn-primary btn-lg fw-bold"
         id="vfRegisterDesktop"
-        shape="round"
-        size="large"
-        type="button"
-        color="dark"
-        fill="outline"
         (click)="register()"
-        >Registrarse</ion-button>
+        >Registrarse</button>
       </ion-item>
     </form>
   </div>
