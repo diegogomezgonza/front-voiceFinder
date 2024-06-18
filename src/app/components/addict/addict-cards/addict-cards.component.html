@@ -1,55 +1,47 @@
 <!-- Sección redes sociales -->
-<ion-card id="vfCard">
+<ion-card id="vfCard" class="w-50 m-auto mt-3 text-center">
   <ion-card-header>
-    <ion-card-title id="vfHeadCard">Redes sociales</ion-card-title>
-    <ion-card-subtitle id="vfSubCard">¿Cómo nos afectan?</ion-card-subtitle>
+    <ion-card-title class="fw-bold text-black w-auto">Redes sociales</ion-card-title>
+    <ion-card-subtitle class="fw-bold text-black w-auto">¿Cómo nos afectan?</ion-card-subtitle>
     <ion-card-content
-      ><ion-button
+      ><button
         type="button"
         (click)="goMostUsed()"
-        shape="round"
-        size="large"
-        expand="block"
+        class="btn btn-primary btn-lg w-50"
       >
-        <ion-icon name="alert-circle-outline"></ion-icon> </ion-button
+        <ion-icon name="alert-circle-outline"></ion-icon> </button
     ></ion-card-content>
   </ion-card-header>
 </ion-card>
 
 <!-- Sección adicción a la tecnologia -->
-<ion-card id="vfCard">
+<ion-card id="vfCard" class="w-50 m-auto mt-3 text-center">
   <ion-card-header>
-    <ion-card-title id="vfHeadCard">Adicción a la tecnología</ion-card-title>
-    <ion-card-subtitle id="vfSubCard">Gráfico por edades</ion-card-subtitle>
-    <ion-card-content>
-      <ion-button
-        id="vfButton"
+    <ion-card-title class="fw-bold text-black w-auto">Adicción a la tecnología</ion-card-title>
+    <ion-card-subtitle class="fw-bold text-black w-auto">Gráfico por edades</ion-card-subtitle>
+    <ion-card-content
+      ><button
         type="button"
         (click)="goAge()"
-        shape="round"
-        size="large"
-        expand="block"
+        class="btn btn-primary btn-lg w-50"
       >
-        <ion-icon name="globe-outline"></ion-icon>
-      </ion-button>
-    </ion-card-content>
+        <ion-icon name="globe-outline"></ion-icon> </button
+    ></ion-card-content>
   </ion-card-header>
 </ion-card>
 
 <!-- Sección aplicaciones más usadas -->
-<ion-card id="vfCard">
+<ion-card id="vfCard" class="w-50 m-auto mt-3 text-center">
   <ion-card-header>
-    <ion-card-title id="vfHeadCard">Aplicaciones más usadas</ion-card-title>
-    <ion-card-subtitle id="vfSubCard">¿Cuáles son?</ion-card-subtitle>
+    <ion-card-title class="fw-bold text-black w-auto">Aplicaciones más usadas</ion-card-title>
+    <ion-card-subtitle class="fw-bold text-black w-auto">¿Cuáles son?</ion-card-subtitle>
     <ion-card-content
-      ><ion-button
-        type="button"
-        (click)="goUseTime()"
-        shape="round"
-        size="large"
-        expand="block"
-      >
-        <ion-icon name="call-outline"></ion-icon> </ion-button
-    ></ion-card-content>
+    ><button
+      type="button"
+      (click)="goUseTime()"
+      class="btn btn-primary btn-lg w-50"
+    >
+      <ion-icon name="call-outline"></ion-icon> </button
+  ></ion-card-content>
   </ion-card-header>
 </ion-card>
