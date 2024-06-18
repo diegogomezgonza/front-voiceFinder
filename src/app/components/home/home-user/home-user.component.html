@@ -1,12 +1,14 @@
 <!-- Botón cerrar sesión -->
-<ion-button
-  id="vfLogout"
-  style="padding-right: 25px"
-  type="button"
-  (click)="logout()"
-  color="danger"
-  shape="round"
-  size="large"
->
-  <ion-label id="vfLogoutLb">Cerrar sesión</ion-label>
-</ion-button>
+<div class="container">
+  <!-- Botón login -->
+  <div class="row">
+    <button
+    id="vfLoginDesktop"
+    class="btn btn-danger btn-lg fw-bold w-auto m-auto ps-4 px-4 d-inline-block"
+    type="button"
+    (click)="logout()"
+  >
+    Cerrar sesión
+  </button>
+  </div>
+</div>
