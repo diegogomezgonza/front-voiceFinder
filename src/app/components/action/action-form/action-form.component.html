@@ -1,54 +1,48 @@
 <!-- Formulario -->
 <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
   <!-- Campo título -->
-  <label class="form-label" id="vfFormLbHd">Título</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Título</label>
   <div class="mb-3">
     <input
       type="text"
-      class="form-control"
+      class="form-control d-flex w-50 m-auto bg-transparent"
       fill="outline"
       formControlName="name"
       rows="2"
-      id="vfFormInput"
     />
   </div>
   <!-- Campo autor -->
-  <label class="form-label" id="vfFormLb">Autor</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Autor</label>
   <div class="mb-3">
     <input
       type="text"
-      class="form-control"
+      class="form-control d-flex w-50 m-auto bg-transparent"
       formControlName="author"
-      id="vfFormInput"
     />
   </div>
   <!-- Campo temática -->
-  <label class="form-label" id="vfFormLb">Temática</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Temática</label>
   <div class="mb-3">
     <input
       type="text"
-      class="form-control"
+      class="form-control d-flex w-50 m-auto bg-transparent"
       formControlName="theme"
-      id="vfFormInput"
     />
   </div>
-  <label class="form-label" id="vfFormLb">Plataforma</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Plataforma</label>
   <div class="mb-3">
     <input
       type="text"
-      class="form-control"
+      class="form-control d-flex w-50 m-auto bg-transparent"
       formControlName="platform"
-      id="vfFormInput"
     />
   </div>
   <!-- Botón enviar -->
-  <ion-button
+  <button
     type="submit"
     value="Enviar"
-    shape="round"
     (click)="presentToast('top')"
-    color="success"
-    id="vfSubmit"
-    >CREAR</ion-button
+    class="btn btn-success btn-lg d-flex m-auto fw-bold"
+    >CREAR</button
   >
 </form>
