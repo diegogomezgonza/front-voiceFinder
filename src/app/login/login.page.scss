@@ -18,31 +18,6 @@ ion-item {
   }
 }
 
-#vfLogo {
-  display: block;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-}
-
-#vfLogoDesktop {
-  display: block;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%; /* Tamaño diferente para escritorio */
-}
-
-#vfTitulo {
-  margin-top: 20px;
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-}
-
 
 .mobile-content {
   display: block;
@@ -60,14 +35,6 @@ ion-item {
 
   .desktop-content {
     display: block;
-  }
-
-  #vfLoginDesktop, #vfRegisterDesktop {
-    display: inline-block;
-    width: auto;
-    margin: 20px auto; /* Centrar horizontalmente */
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   ion-item {

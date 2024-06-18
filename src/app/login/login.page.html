@@ -3,7 +3,7 @@
   <!-- Toolbar -->
   <ion-toolbar id="vfToolbar" class="ion-no-border">
     <!-- Título -->
-    <ion-title id="vfTitulo">Voice Finder</ion-title>
+    <ion-title class="mt-2 text-center fs-1 fw-bold">Voice Finder</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -12,7 +12,7 @@
   <!-- Contenido móvil -->
   <div class="mobile-content">
     <!--Logo vf -->
-    <img src="../../assets/pics/login/logoVf.png" id="vfLogo" />
+    <img src="../../assets/pics/login/logoVf.png" class="d-block mb-3 mx-auto ms-auto" />
 
     <!-- Formulario -->
     <form (ngSubmit)="login()" [formGroup]="cred">
@@ -47,11 +47,11 @@
       <div class="container">
         <!-- Botón login -->
         <div class="row">
-          <button class="btn btn-success btn-lg fw-bold mt-4 mb-5" id="vfLogin" type="submit">Iniciar sesión</button>
+          <button class="btn btn-success btn-lg fw-bold mt-4 mb-5 pt-2 pb-2" type="submit">Iniciar sesión</button>
         </div>
         <!-- Botón registrarse -->
         <div class="row">
-          <button class="btn btn-primary btn-lg fw-bold" id="vfLogin" type="button" (click)="register()">Registrarse</button>
+          <button class="btn btn-primary btn-lg fw-bold pt-2 pb-2" type="button" (click)="register()">Registrarse</button>
         </div>
       </div>
     </form>
@@ -60,7 +60,7 @@
   <!-- Contenido escritorio -->
   <div class="desktop-content">
     <!--Logo vf -->
-    <img src="../../assets/pics/login/logoVf.png" id="vfLogoDesktop" />
+    <img src="../../assets/pics/login/logoVf.png" class="d-block mb-3 mx-auto ms-auto" />
 
     <!-- Formulario -->
     <form (ngSubmit)="login()" [formGroup]="cred">
@@ -95,12 +95,12 @@
       <ion-item>
         <button
         id="vfLoginDesktop"
-        class="btn btn-success btn-lg fw-bold"
+        class="btn btn-success btn-lg fw-bold w-auto m-auto ps-4 px-4 d-inline-block"
         type="submit"
         >Iniciar sesión</button>
       <!-- Botón registrarse -->
       <button
-        class="btn btn-primary btn-lg fw-bold"
+        class="btn btn-primary btn-lg fw-bold w-auto m-auto ps-4 px-4 d-inline-block"
         id="vfRegisterDesktop"
         (click)="register()"
         >Registrarse</button>
