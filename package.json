@@ -28,6 +28,7 @@
     "@capacitor/ios": "4.6.3",
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/status-bar": "4.1.1",
+    "@grpc/grpc-js": "^1.10.9",
     "@ionic/angular": "^6.1.9",
     "@ionic/pwa-elements": "^3.1.1",
     "@popperjs/core": "^2.11.8",
@@ -39,9 +40,11 @@
     "ng2-charts": "^4.1.1",
     "protobufjs": "^7.3.2",
     "rxjs": "~7.5.0",
+    "semver": "^7.6.2",
     "socket.io-parser": "^4.2.4",
     "tslib": "^2.3.0",
     "webpack": "^5.92.0",
+    "webpack-dev-middleware": "^7.2.1",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
