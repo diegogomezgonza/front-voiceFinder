@@ -6,22 +6,25 @@
 <!-- Comienzo del content -->
 <ion-content delegate-handle="mainScroll" [fullscreen]="true">
   <!-- Categorías  -->
-  <ion-label class="d-flex text-white mt-3 mb-4 pl-2 w-100 fs-3 fw-bold justify-content-center">PODCASTS FAMOSOS</ion-label>
+  <ion-label
+    class="d-flex text-white mt-3 mb-4 pl-2 w-100 fs-3 fw-bold justify-content-center"
+    >PODCASTS FAMOSOS</ion-label
+  >
   <app-home-category-slide></app-home-category-slide>
   <br />
   <!-- Recomendados  -->
-  <ion-label class="d-flex text-white mt-3 mb-4 pl-2 w-100 fs-3 fw-bold justify-content-center">CREADORES RECOMENDADOS</ion-label>
+  <ion-label
+    class="d-flex text-white mt-3 mb-4 pl-2 w-100 fs-3 fw-bold justify-content-center"
+    >CREADORES RECOMENDADOS</ion-label
+  >
   <app-home-profiles-slide></app-home-profiles-slide>
-
 </ion-content>
 
 <!-- Footer -->
 <ion-footer id="vfFooter" class="ion-no-border bg-transparent" collapse="fade">
-
   <!-- Footer -->
-   <div class="d-flex justify-content-center gap-5">
+  <div class="d-flex justify-content-center gap-5">
     <app-home-fabbutton></app-home-fabbutton>
     <app-home-footer></app-home-footer>
-   </div>
-
+  </div>
 </ion-footer>

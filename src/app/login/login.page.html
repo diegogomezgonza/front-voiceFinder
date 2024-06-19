@@ -12,7 +12,10 @@
   <!-- Contenido móvil -->
   <div class="mobile-content">
     <!--Logo vf -->
-    <img src="../../assets/pics/login/logoVf.png" class="d-block mb-3 mx-auto ms-auto" />
+    <img
+      src="../../assets/pics/login/logoVf.png"
+      class="d-block mb-3 mx-auto ms-auto"
+    />
 
     <!-- Formulario -->
     <form (ngSubmit)="login()" [formGroup]="cred">
@@ -27,7 +30,8 @@
         <ion-note
           slot="error"
           *ngIf="(email.dirty || email.touched) && email.errors"
-          >Email incorrecto</ion-note>
+          >Email incorrecto</ion-note
+        >
       </ion-item>
 
       <!-- Campo contraseña -->
@@ -41,17 +45,29 @@
         <ion-note
           slot="error"
           *ngIf="(password.dirty || password.touched) && password.errors"
-          >La contraseña debe tener más de 6 carácteres</ion-note>
+          >La contraseña debe tener más de 6 carácteres</ion-note
+        >
       </ion-item>
 
       <div class="container">
         <!-- Botón login -->
         <div class="row">
-          <button class="btn btn-success btn-lg fw-bold mt-4 mb-5 pt-2 pb-2" type="submit">Iniciar sesión</button>
+          <button
+            class="btn btn-success btn-lg fw-bold mt-4 mb-5 pt-2 pb-2"
+            type="submit"
+          >
+            Iniciar sesión
+          </button>
         </div>
         <!-- Botón registrarse -->
         <div class="row">
-          <button class="btn btn-primary btn-lg fw-bold pt-2 pb-2" type="button" (click)="register()">Registrarse</button>
+          <button
+            class="btn btn-primary btn-lg fw-bold pt-2 pb-2"
+            type="button"
+            (click)="register()"
+          >
+            Registrarse
+          </button>
         </div>
       </div>
     </form>
@@ -60,7 +76,10 @@
   <!-- Contenido escritorio -->
   <div class="desktop-content">
     <!--Logo vf -->
-    <img src="../../assets/pics/login/logoVf.png" class="d-block mb-3 mx-auto ms-auto" />
+    <img
+      src="../../assets/pics/login/logoVf.png"
+      class="d-block mb-3 mx-auto ms-auto"
+    />
 
     <!-- Formulario -->
     <form (ngSubmit)="login()" [formGroup]="cred">
@@ -75,7 +94,8 @@
         <ion-note
           slot="error"
           *ngIf="(email.dirty || email.touched) && email.errors"
-          >Email incorrecto</ion-note>
+          >Email incorrecto</ion-note
+        >
       </ion-item>
 
       <!-- Campo contraseña -->
@@ -89,21 +109,26 @@
         <ion-note
           slot="error"
           *ngIf="(password.dirty || password.touched) && password.errors"
-          >La contraseña debe tener más de 6 carácteres</ion-note>
+          >La contraseña debe tener más de 6 carácteres</ion-note
+        >
       </ion-item>
       <!-- Botón login -->
       <ion-item>
         <button
-        id="vfLoginDesktop"
-        class="btn btn-success btn-lg fw-bold w-auto m-auto ps-4 px-4 d-inline-block"
-        type="submit"
-        >Iniciar sesión</button>
-      <!-- Botón registrarse -->
-      <button
-        class="btn btn-primary btn-lg fw-bold w-auto m-auto ps-4 px-4 d-inline-block"
-        id="vfRegisterDesktop"
-        (click)="register()"
-        >Registrarse</button>
+          id="vfLoginDesktop"
+          class="btn btn-success btn-lg fw-bold w-auto m-auto ps-4 px-4 d-inline-block"
+          type="submit"
+        >
+          Iniciar sesión
+        </button>
+        <!-- Botón registrarse -->
+        <button
+          class="btn btn-primary btn-lg fw-bold w-auto m-auto ps-4 px-4 d-inline-block"
+          id="vfRegisterDesktop"
+          (click)="register()"
+        >
+          Registrarse
+        </button>
       </ion-item>
     </form>
   </div>

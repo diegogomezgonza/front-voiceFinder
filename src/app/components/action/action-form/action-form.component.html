@@ -1,7 +1,9 @@
 <!-- Formulario -->
 <form [formGroup]="formulario" (ngSubmit)="onSubmit()">
   <!-- Campo título -->
-  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Título</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2"
+    >Título</label
+  >
   <div class="mb-3">
     <input
       type="text"
@@ -12,7 +14,9 @@
     />
   </div>
   <!-- Campo autor -->
-  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Autor</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2"
+    >Autor</label
+  >
   <div class="mb-3">
     <input
       type="text"
@@ -21,7 +25,9 @@
     />
   </div>
   <!-- Campo temática -->
-  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Temática</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2"
+    >Temática</label
+  >
   <div class="mb-3">
     <input
       type="text"
@@ -29,7 +35,9 @@
       formControlName="theme"
     />
   </div>
-  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2">Plataforma</label>
+  <label class="form-label mt-2 w-100 fs-4 fw-bold text-center m-auto p-2"
+    >Plataforma</label
+  >
   <div class="mb-3">
     <input
       type="text"
@@ -43,6 +51,7 @@
     value="Enviar"
     (click)="presentToast('top')"
     class="btn btn-success btn-lg d-flex m-auto fw-bold"
-    >CREAR</button
   >
+    CREAR
+  </button>
 </form>
