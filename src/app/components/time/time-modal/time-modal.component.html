@@ -1,6 +1,6 @@
 <!-- Botón para modal -->
-<div id="vfModal">
-  <ion-button id="open-modal" shape="round" size="large" color="success"
+<div id="vfModal" class="pt-2 d-flex justify-content-center">
+  <ion-button id="open-modal" class="fw-bold" shape="round" size="large" color="success"
     >SABER MÁS</ion-button
   >
 </div>
@@ -8,21 +8,21 @@
 <!-- Contenido modal -->
 <ion-modal trigger="open-modal" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
   <ng-template>
-    <div class="block">
+    <div class="text-white w-auto h-auto d-flex justify-content-center p-4">
       <img id="vfPodcastPic" alt="Adria" src="../../assets/pics/home/2.jpg" />
       <a
         href="https://www.youtube.com/watch?v=yczdWM_76wg&pp=ygUXYWRyaWEgc29sYSBwYXN0b3IgbW92aWw%3D"
         target="_blank"
-        id="vfLink"
+        class="fw-bold text-decoration-none"
         >¿Cómo curar la adicción al teléfono?
       </a>
     </div>
-    <div class="block">
+    <div class="text-white w-auto h-auto d-flex justify-content-center p-4">
       <img id="vfPodcastPic" alt="Clara" src="../../assets/pics/home/1.jpg" />
       <a
         href="https://www.youtube.com/watch?v=bD7t5wi3K10&pp=ygUbY2xhcmEgY2FybW9uYSBtYWxvcyBoYWJpdG9z"
         target="_blank"
-        id="vfLink"
+        class="fw-bold text-decoration-none"
         >Eliminar malos hábitos
       </a>
     </div>
