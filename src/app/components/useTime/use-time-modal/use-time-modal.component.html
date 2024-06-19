@@ -1,6 +1,6 @@
 <!-- Botón modal -->
-<div id="vfModal">
-  <ion-button id="open-modal" shape="round" size="large" color="success"
+<div class="pt-2 d-flex justify-content-center">
+  <ion-button id="open-modal" class="fw-bold" shape="round" size="large" color="success"
     >SABER MÁS</ion-button
   >
 </div>
@@ -8,15 +8,15 @@
 <!-- Contenido modal -->
 <ion-modal trigger="open-modal" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
   <ng-template>
-    <div class="block">
+    <div class="text-white w-auto h-auto d-flex justify-content-center p-4">
       <img id="vfPodcastPic" alt="Clara" src="../../assets/pics/home/1.jpg" />
-      <a href="https://youtu.be/UyB_aqCvjkg" target="_blank" id="vfLink"
+      <a href="https://youtu.be/UyB_aqCvjkg" target="_blank" class="fw-bold text-decoration-none"
         >Ideas de organización
       </a>
     </div>
-    <div class="block">
+    <div class="text-white w-auto h-auto d-flex justify-content-center p-4">
       <img id="vfPodcastPic" alt="Jordi" src="../../assets/pics/home/5.jpg" />
-      <a href="https://youtu.be/D_9VgBPNwNY" target="_blank" id="vfLink"
+      <a href="https://youtu.be/D_9VgBPNwNY" target="_blank" class="fw-bold text-decoration-none"
         >Dejar de sobrepensar
       </a>
     </div>
