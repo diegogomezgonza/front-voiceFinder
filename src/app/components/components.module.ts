@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { HomeCategorySlideComponent } from './home/home-category-slide/home-category-slide.component';
-import { HomeMySpaceComponent } from './home/home-my-space/home-my-space.component';
 import { HomeProfilesSlideComponent } from './home/home-profiles-slide/home-profiles-slide.component';
 import { HomeFooterComponent } from './home/home-footer/home-footer.component';
 import { HomeUserProfileComponent } from './home/home-user-profile/home-user-profile.component';
@@ -38,7 +37,6 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 @NgModule({
   declarations: [
     HomeCategorySlideComponent,
-    HomeMySpaceComponent,
     HomeProfilesSlideComponent,
     HomeFooterComponent,
     HomeUserProfileComponent,
@@ -77,7 +75,6 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
   ],
   exports: [
     HomeCategorySlideComponent,
-    HomeMySpaceComponent,
     HomeProfilesSlideComponent,
     HomeFooterComponent,
     HomeUserProfileComponent,
