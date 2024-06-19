@@ -25,14 +25,6 @@ const routes: Routes = [
       import('./home/home.module').then((m) => m.HomePageModule),
     ...canActivate(redirectUnauthorizedToLogin),
   },
-  //Info de versiones
-  {
-    path: 'podcast-info',
-    loadChildren: () =>
-      import('./app-info/podcast-info.module').then(
-        (m) => m.PodcastInfoPageModule
-      ),
-  },
   //Crear podcast
   {
     path: 'podcast-action',
