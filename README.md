@@ -19,7 +19,6 @@ Firebase es una plataforma de desarrollo de aplicaciones móviles y web desarrol
 
 - Primero npm install para instalar las dependencias.
 - Después ionic serve --lab para ejecutar el emulador de ionic. 
-- Para ver la aplicación con la resolución aproximada a mi teléfono, recomiendo abrir el proyecto en modo web y con la herramienta de inspeccionar, seleccionar la opción para emular la pantalla de un Samsung Galaxy S8+.
 ![2](https://github.com/diegogomezgonza/front-voiceFinder/assets/93382813/951b02a1-d995-4b99-b862-2b77663d836d)
 
 
