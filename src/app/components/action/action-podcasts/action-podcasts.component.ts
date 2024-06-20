@@ -1,34 +1,28 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from 'src/app/services/data.service';
-import { Observable } from 'rxjs';
 import Podcast from 'src/app/Interfaces/podcast.interface';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
-  selector: 'app-action-podcast',
-  templateUrl: './action-podcast.component.html',
-  styleUrls: ['./action-podcast.component.scss'],
+  selector: 'app-action-podcasts',
+  templateUrl: './action-podcasts.component.html',
+  styleUrls: ['./action-podcasts.component.scss'],
 })
-export class ActionPodcastComponent implements OnInit {
-  podcasts$: Observable<Podcast[]>;
+export class ActionPodcastsComponent implements OnInit {
+  //Contenido de interfaz Podcast
+  podcast: Podcast[];
 
   constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.loadPodcasts();
+    //Visualizar Podcast
+    this.dataService.getPodcast().subscribe((podcast) => {
+      this.podcast = podcast;
+    });
   }
 
-  loadPodcasts() {
-    this.podcasts$ = this.dataService.getAllPodcasts();
-  }
-
-  async deletePodcast(podcastId: string) {
-    try {
-      await this.dataService.deletePodcast(podcastId);
-      console.log('Podcast eliminado correctamente');
-      // Opcional: Recargar la lista de podcasts después de eliminar uno
-      this.loadPodcasts();
-    } catch (error) {
-      console.error('Error al eliminar el podcast:', error);
-    }
+  //Función borrar podcast
+  async onClickDelete(pod: Podcast) {
+    const response = await this.dataService.deletePodcast(pod);
+    console.log(response);
   }
 }

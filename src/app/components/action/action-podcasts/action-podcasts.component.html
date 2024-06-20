@@ -1,9 +1,18 @@
-<div *ngIf="podcasts$ | async as podcasts">
-  <h2>Mis Podcasts</h2>
-  <ul>
-    <li *ngFor="let podcast of podcasts">
-      {{ podcast.name }} - {{ podcast.author }}
-      <button (click)="deletePodcast(podcast.id)">Eliminar</button>
-    </li>
-  </ul>
+<div class="podcast">
+  <div class="pod" *ngFor="let pod of podcast">
+    <div class="info">
+      <!-- Título podcast -->
+      <h1 id="vfTitle">{{ pod.name }}</h1>
+      <!-- Temática podcast -->
+      <h3 id="vfTheme">{{ pod.theme }}</h3>
+      <!-- Autor podcast -->
+      <p id="vfAuthor">{{ pod.author }}</p>
+      <!-- Autor podcast -->
+      <p id="vfAuthor">{{ pod.platform }}</p>
+      <!-- Borrar podcast -->
+      <ion-button id="vfDelete" color="danger" (click)="onClickDelete(pod)"
+        ><ion-icon name="trash-outline"></ion-icon
+      ></ion-button>
+    </div>
+  </div>
 </div>
