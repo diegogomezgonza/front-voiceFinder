@@ -1,5 +1,6 @@
 # Voice Finder
 Voice Finder es una aplicación móvil desarrollada con Angular, Ionic y TypeScript, que permite a los usuarios explorar y escuchar podcasts relacionados con el mundo del desarrollo personal. La aplicación está integrada con Firebase para el almacenamiento de datos y la autenticación de usuarios.
+![1](https://github.com/diegogomezgonza/front-voiceFinder/assets/93382813/709eb7fb-0dc5-4ffd-b1bd-672eb1b057e7)
 
 # Tecnologías Utilizadas
 ## Angular
@@ -18,8 +19,8 @@ Firebase es una plataforma de desarrollo de aplicaciones móviles y web desarrol
 
 - Primero npm install para instalar las dependencias.
 - Después ionic serve --lab para ejecutar el emulador de ionic. 
-- Para ver la aplicación con la resolución aproximada a mi teléfono, recomiendo abrir el proyecto en modo web y con la herramienta de inspeccionar, seleccionar la opción para emular la pantalla de un Samsung Galaxy S8+.
-![1](https://github.com/diegogomezgonza/front-voiceFinder/assets/93382813/e7b995df-573b-41a1-b3d2-a33a329d91c3)
+![2](https://github.com/diegogomezgonza/front-voiceFinder/assets/93382813/648fc41e-4bed-481f-90e3-dd47f54893a1)
+
 
 
 
