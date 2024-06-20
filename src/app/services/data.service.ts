@@ -16,23 +16,21 @@ import { Observable } from 'rxjs';
 export class DataService {
   constructor(private firestore: Firestore) {}
 
-  //Servicio para crear podcast
+  // Servicio para crear podcast
   addPodcast(podcast: Podcast) {
     const podcastRef = collection(this.firestore, 'podcast');
     return addDoc(podcastRef, podcast);
   }
 
-  //Servicio para almacenar podcast
-  getPodcast(): Observable<Podcast[]> {
+  // Servicio para obtener todos los podcasts
+  getAllPodcasts(): Observable<Podcast[]> {
     const podcastRef = collection(this.firestore, 'podcast');
-    return collectionData(podcastRef, { idField: 'id' }) as Observable<
-      Podcast[]
-    >;
+    return collectionData(podcastRef) as Observable<Podcast[]>;
   }
 
-  //Servicio para eliminar podcast
-  deletePodcast(pod: Podcast) {
-    const podcastRef = doc(this.firestore, `podcast/${pod.id}`);
-    return deleteDoc(podcastRef);
+  // Servicio para eliminar un podcast por ID
+  deletePodcast(podcastId: string) {
+    const podcastDoc = doc(this.firestore, 'podcast', podcastId);
+    return deleteDoc(podcastDoc);
   }
 }
