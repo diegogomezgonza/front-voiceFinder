@@ -10,7 +10,7 @@ Angular es un framework de desarrollo de aplicaciones web desarrollado y manteni
 Ionic es un framework de código abierto que permite el desarrollo de aplicaciones móviles utilizando tecnologías web como HTML, CSS y JavaScript/TypeScript. Se utiliza en este proyecto para proporcionar una interfaz de usuario móvil nativa.
 
 ## TypeScript
-TypeScript es un superconjunto de JavaScript que agrega tipado estático opcional y otras características avanzadas al lenguaje. Se utiliza en este proyecto para escribir código más estructurado y mantenible.
+TypeScript es un superconjunto de JavaScript que agrega tipado estático opcional y otras características avanzadas al lenguaje. 
 
 ## Firebase
 Firebase es una plataforma de desarrollo de aplicaciones móviles y web desarrollada por Google. Proporciona una variedad de servicios, incluido el almacenamiento en la nube, la base de datos en tiempo real, la autenticación de usuarios y mucho más. En este proyecto, Firebase se utiliza para almacenar los podcasts y gestionar la autenticación de usuarios.
